@@ -1,0 +1,16 @@
+.nav-item {
+    text-transform: uppercase;
+    font-weight: $weight-bold;
+    img {
+        max-height: 5rem;
+    }
+    @include mobile {
+        img {
+            max-height: 3.5rem;
+        }
+    }
+}
+
+.navitem a, a.nav-item {
+    color: $dark-blue;
+}

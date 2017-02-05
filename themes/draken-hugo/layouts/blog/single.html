@@ -1,0 +1,35 @@
+{{ define "banner" }}
+    <!-- No banner -->
+{{ end }}
+
+{{ define "main" }}
+    <div class="blog">
+        <div class="container">
+            <header class="container">
+                <div class="col-md-12">
+                    <div class="page-header">
+                        <h2 th:text="${page.title}">{{ .Title }}</h2>
+                    </div>
+                </div>
+            </header>
+            <article class="container">
+                <div class="col-md-2 meta">
+                    <dl>
+                        <dt>Datum</dt>
+                        <dd>{{ .Date.Format "2006-01-02" }}</dd>
+                        <dt>Autor</dt>
+                        <dd>Aleš Rybák</dd>
+                    </dl>
+                </div>
+                <div class="col-md-8">
+                    <div th:utext="${content}">{{ .Content }}</div>
+                    {{ partial "molecules/page-tags" . }}
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <div class="related" th:include="common :: related">
+    </div>
+
+{{ end }}

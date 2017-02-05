@@ -1,0 +1,21 @@
+{{ define "banner" }}
+    <!-- No banner -->
+{{ end }}
+
+{{ define "main" }}
+
+    <div class="news">
+
+        <div class="container">
+            <div class="col-lg-12">
+                <h2>Videa</h2>
+            </div>
+
+            {{ range where .Data.Pages "Section" "video" }}
+                {{ partial "molecules/page-link" . }}
+            {{ end }}
+           
+        </div>
+    </div>
+
+{{ end }}

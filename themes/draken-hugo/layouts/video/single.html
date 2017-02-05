@@ -1,0 +1,44 @@
+{{ define "banner" }}
+    <!-- No banner -->
+{{ end }}
+
+{{ define "main" }}
+    
+    <div id="content" class="content video">
+        <div class="container">
+
+            <div class="col-md-12">
+                <h2>{{ .Title }}</h2>
+            </div>
+
+            <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12 text-center">
+
+                <video id="video" class="video-js vjs-default-skin" controls="true" preload="none" width="100%" height="320" poster="{{ partial "atoms/page-thumb" (dict "page" . "thumbType" "v") }}" data-setup="{}">
+
+                    {{ range .Params.videoformats }}
+                    <source src="/video/{{ $.Params.video }}.{{ . }}" type="video/{{ . }}" />
+                    {{ end }}
+
+                    <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a web browser that
+                        <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                    </p>
+                </video>
+
+            </div>
+            <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-12">
+
+                <div th:utext="${content}">
+                    {{ .Content }}
+                </div>
+
+                {{ partial "molecules/page-tags" . }}
+            </div>
+
+        </div>
+
+        {{ partial "organisms/related-pages" . }}
+        
+    </div>
+
+{{ end }}

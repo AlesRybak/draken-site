@@ -1,0 +1,28 @@
+<html xmlns:th="http://www.thymeleaf.org">
+	<body>
+
+		<section th:fragment="related">
+		    <div class="related">
+		        <div class="container">
+		            <h3>Příbuzný obsah</h3>
+		            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6" th:each="p : ${inventory.getRelated(page, 6)}">
+		                <div class="page-link">
+		                    <div class="preview">
+		                        <a th:href="${p.url}">
+		                            <div class="gallery-preview" th:attr="style='background-image: url(\'' + ${p.getThumb('_h')} + '\')'"></div>
+		                        </a>
+		                    </div>
+		                    <div class="title">
+		                        <h4><a th:href="${p.url}" th:text="${p.title}">Title</a></h4>
+		                    </div>
+		                    <div class="type">
+		                        (<span th:text="${p.params.getValue('typeText')}">gallery</span>)
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</section>
+
+	</body>
+</html>

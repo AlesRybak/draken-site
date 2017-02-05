@@ -1,0 +1,15 @@
+baseurl: "http://localhost:1313/"
+languageCode: "cs-cz"
+title: "Draken Brno"
+theme: "draken-hugo"
+canonifyurls: false;
+
+
+menu:
+  main:
+    - identifier: 'radost-na-drakenu'
+      name: "Radost na Drakenu"
+      weight: 500
+
+params:
+  sidebar: "left"

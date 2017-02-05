@@ -1,0 +1,36 @@
+{{ $thisPage := . }}
+{{ $.Scratch.Set "maxMatch" 0 }}
+{{ $.Scratch.Set "curMatch" 0 }}
+
+{{ range $thatPage := $.Site.Pages }}
+	{{ if ne $thatPage $thisPage }}
+		{{ $match := len (intersect $.Params.tags $thatPage.Params.tags) }}
+		{{ if gt $match 0 }}
+			{{ if gt $match ( $.Scratch.Get "maxMatch" ) }}
+				{{ $.Scratch.Set "maxMatch" $match }}
+			{{ end }}
+			{{ $.Scratch.Add (string $match) (slice $thatPage) }}
+		{{ end }}
+	{{ end }}
+{{ end }}
+
+{{ range seq ( $.Scratch.Get "maxMatch" ) 1 }}
+	{{ $pages := $.Scratch.Get (string .) }}
+	{{ range $page := $pages }}
+		{{ $.Scratch.Add "allMatches" (slice $page) }}
+	{{ end }}
+{{ end }}
+
+{{ $relatedPages := $.Scratch.Get "allMatches" }}
+
+{{ with ($.Scratch.Get "allMatches") }}
+	<div class="related">
+		<div class="container">
+			<h3>Příbuzný obsah</h3>
+				{{ range first 6 . }}
+					{{ partial "molecules/page-link" . }}
+				{{ end }}
+				</ul>
+		</div>
+	</div>
+{{ end }}

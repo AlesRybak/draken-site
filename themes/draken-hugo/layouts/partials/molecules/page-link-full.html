@@ -1,0 +1,19 @@
+<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+    <div class="page-link">
+        <div class="preview">
+            <a href="{{ .Permalink }}">
+                <div class="gallery-preview" style="background-image: url(
+                    '{{ partial "atoms/page-thumb" (dict "page" . "thumbType" "h") }}'
+                )"></div>
+            </a>
+        </div>
+        <div class="type">
+            <time th:text="${p.date}">{{ .Date.Format "2006-01-02" }}</time>
+            /
+            <span th:text="${p.params.getValue('typeText')}">{{ .Type }}</span>
+        </div>
+        <div class="title">
+            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+        </div>
+    </div>
+</div>

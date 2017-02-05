@@ -1,0 +1,13 @@
+.draken-centered {
+    justify-content: center;
+}
+
+.draken-box {
+    border-left: solid 3px $blue;
+    background: $white;
+    font-size: $size-6;
+    font-weight: $weight-bold;
+    padding: 20px;
+    box-shadow: 0 0 25px -10px $blue;
+    border-radius: 5px;
+}

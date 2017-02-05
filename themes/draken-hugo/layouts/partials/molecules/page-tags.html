@@ -1,0 +1,14 @@
+{{ if isset .Params "tags" }}
+	<section>
+	    <div>
+	        <ul class="tags">
+                {{ range .Params.tags }}
+		            <li>
+		                <a href="{{ "/tags/" | relURL }}{{ . | urlize }}" th:text="${tag}">{{ . }}</a>
+		            </li>
+                {{ end }}
+	        </ul>
+	    </div>
+	    <div class="clearfix"></div>
+	</section>
+{{ end }}

@@ -1,0 +1,34 @@
+{{- if eq .page.Type "gallery" -}}
+	{{- if isset .page.Params "cover" -}}
+		{{- if hasPrefix .page.Params.cover "/" -}}
+			{{- $thumb := replace .page.Params.cover "." "_TYPE." -}}
+			{{- replace $thumb "TYPE" .thumbType -}}
+		{{- else -}}
+			{{- $thumb := .page.Params.cover -}}
+			{{- $thumb := replaceRE "^(.+)\\.([a-z]+)" "/${1}_TYPE.$2" $thumb -}}
+			{{- $thumb := replace $thumb "TYPE" .thumbType -}}
+			{{- $path := .page.File.Path -}}
+			{{- $path := replace $path "gallery" "thumbnails" -}}
+			{{- $path := replaceRE "^([^/])" "/$1" $path -}}
+			{{- replace $path ".html" $thumb -}}
+		{{- end -}}
+	{{- else -}}
+		{{- $path := .page.File.Path -}}
+		{{- $path := replace $path "gallery" "photos" -}}
+		{{- $path := replace $path ".html" "" -}}
+
+		{{-  range first 1 (readDir (delimit (slice "static" $path) "/")) -}}
+			{{- $thumb := replace .Name "." (delimit (slice "_" $.thumbType ".") "") -}}
+			{{- replace $path "photos" "/thumbnails" -}}/{{- $thumb -}}
+		{{- end -}}
+	{{- end -}}
+{{- else if (eq .page.Type "video") -}}
+	{{- delimit (slice "/thumbnails/video/" .page.Params.video "_" $.thumbType ".jpg") "" -}}
+{{- else -}}
+	{{- if isset .page.Params "thumbnail" -}}
+		{{- if hasPrefix .page.Params.thumbnail "/" -}}
+			{{- $thumb := replace .page.Params.thumbnail "." "_TYPE." -}}
+			{{- replace $thumb "TYPE" .thumbType -}}
+		{{- end -}}
+	{{- end -}}
+{{- end -}}

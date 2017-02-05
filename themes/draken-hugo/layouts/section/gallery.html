@@ -1,0 +1,32 @@
+{{ define "banner" }}
+    <!-- No banner -->
+{{ end }}
+
+{{ define "main" }}
+	<div class="container">
+		<h2>Fotogalerie</h2>
+		<ul class="nav nav-pills">
+			<li class="filter" data-filter="all"><a><i><b>Vše</b></i></a></li>
+			<li class="filter" data-filter=".rodina"><a>Rodina</a></li>
+            <li class="filter" data-filter=".draken"><a>Draken</a></li>
+            <li class="filter" data-filter=".svitani"><a>Svítání</a></li>
+            <li class="filter" data-filter=".dovolena"><a>Dovolené</a></li>
+            <li class="filter" data-filter=".priroda"><a>Příroda</a></li>
+		</ul>
+	</div>
+	<div id="gallery-list" class="container">
+		{{ range where .Data.Pages "Section" "gallery" }}
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 mix {{ delimit .Params.tags " " }}">
+				<div class="thumb">
+					<a href="{{ .Permalink }}">
+						<img src="{{ partial "atoms/page-thumb" (dict "page" . "thumbType" "t") }}" />
+					</a>
+				</div>
+				<div class="description">
+					<a href="{{ .Permalink }}">{{ .Title }}</a><br/>
+					<span>{{ .Date.Format "2006-01-02" }}</span><br/>
+				</div>
+			</div>
+		{{ end }}
+	</div>
+{{ end }}

@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+    <div class="news">
+
+        <div class="container">
+            <div class="col-lg-12">
+                <h2>Novinky</h2>
+            </div>
+
+            {{ range first 8 .Data.Pages }}
+                {{ partial "molecules/page-link-full" . }}
+            {{ end }}
+           
+        </div>
+    </div>
+
+{{ end }}

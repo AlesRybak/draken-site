@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aleš Rybák</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/css/styles-all.min.css" />
+    <script type="application/x-javascript">
+        addEventListener("load", function () { setTimeout(hideURLbar, 0); }, false);
+        function hideURLbar() { window.scrollTo(0, 1); }
+    </script>
+    <script type="application/x-javascript" src="/js/scripts-all.min.js"></script>
+</head>
+<body>
+
+<div class="header" th:if="${params.showBanner}">
+    <div class="container">
+        <div class="logo">
+            <a href="/"><span class="logo-h"> </span></a>
+            <h1>Aleš <span>Rybák</span></h1>
+        </div>
+    </div>
+</div>
+
+<div class="header-bottom">
+    <div class="container">
+        <div class="logo-bottom">
+            <a href="/"><img src="/images/alry-logo_small.png" alt=" "/></a>
+        </div>
+        <div class="top-nav">
+            <span class="menu"> </span>
+            <ul>
+                <li><a href="/blogs.html" class="scroll">Blog</a></li>
+                <li><a href="/galleries.html" class="scroll">Fotografie</a></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<section id="content" th:include="${page.id} :: #content">
+    <div class="news">
+        <div class="container">
+            <h3>Novinky</h3>
+            <div>
+                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                    <div class="page-link first">
+                        <div class="type">
+                            Galerie
+                        </div>
+                        <div class="preview">
+                            <a href="#pageUrl">
+                                <div class="gallery-preview" style="background-image: url('/images/preview-generic.png')"></div>
+                            </a>
+                        </div>
+                        <div class="title">
+                            <h4><a href="#pageUrl">Title</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                    <div class="page-link">
+                        <div class="type">
+                            Blog
+                        </div>
+                        <div class="preview">
+                            <a href="#pageUrl">
+                                <div class="gallery-preview" style="background-image: url('/images/preview-blog.png')"></div>
+                            </a>
+                        </div>
+                        <div class="title">
+                            <h4><a href="#pageUrl">Title</a></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="related">
+        <div class="container">
+            <h3>Příbuzný obsah</h3>
+            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                <div class="page-link">
+                    <div class="type">
+                        Galerie
+                    </div>
+                    <div class="preview">
+                        <a href="#pageUrl">
+                            <div class="gallery-preview" style="background-image: url('image.thumbH.jpg')"></div>
+                        </a>
+                    </div>
+                    <div class="title">
+                        <h4><a href="#pageUrl">Title</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="footer">
+    <div class="container">
+        <p class="copyright">&copy; 2006-2015 Aleš Rybák</p>
+    </div>
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>
+
+</body>
+</html>

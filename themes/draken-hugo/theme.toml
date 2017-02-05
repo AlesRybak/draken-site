@@ -1,0 +1,12 @@
+name = "Draken Hugo Theme"
+license = "MIT"
+licenselink = ""
+description = "Simple theme for www.draken.cz"
+homepage = "http://www.draken.cz/"
+tags = ["", ""]
+features = ["", ""]
+min_version = 0.18
+
+[author]
+  name = "Ales Rybak"
+  homepage = "http://www.alry.cz/"

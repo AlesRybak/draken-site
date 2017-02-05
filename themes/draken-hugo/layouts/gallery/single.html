@@ -1,0 +1,50 @@
+{{ define "banner" }}
+    <!-- No banner -->
+{{ end }}
+
+{{ define "main" }}
+    <div class="gallery">
+        <div class="container">
+
+            <h2>{{ .Title }}</h2>
+
+            <div>
+                {{ .Description }}
+            </div>
+
+            <p>
+                {{ .Content }}
+            </p>
+
+            {{ partial "molecules/page-tags" . }}
+
+            <div>
+                <div id="links" class="photo-gallery">
+                    {{- $path := .File.Path -}}
+                    {{- $path := replace $path "gallery" "photos" -}}
+                    {{- $path := replace $path ".html" "" -}}
+
+                    {{- range (readDir (delimit (slice "static" $path) "/")) -}}
+                        {{- $photo := (delimit (slice "" $path .Name) "/") -}}
+                        {{- $thumb := replace $photo ".jpg" "_m.jpg" -}}
+                        {{- $thumb := replace $thumb "photos" "thumbnails" -}}
+
+                        <a href="{{ $photo }}">
+                            <img src="{{ $thumb }}" />
+                        </a>
+                    {{- end -}}
+                </div>
+            </div>
+            <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+                <div class="slides"></div> <h3 class="title"></h3>
+                <a class="prev">‹</a> <a class="next">›</a>
+                <a class="close">×</a> <a class="play-pause"></a>
+                <ol class="indicator"></ol>
+            </div>
+
+        </div>
+    </div>
+    
+    {{ partial "organisms/related-pages" . }}
+
+{{ end }}

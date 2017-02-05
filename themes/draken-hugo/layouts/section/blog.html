@@ -1,0 +1,32 @@
+{{ define "banner" }}
+    <!-- No banner -->
+{{ end }}
+
+{{ define "main" }}
+
+    <div class="blogs">
+        <div class="container">
+            <div class="col-md-12">
+                <h2>Blog</h2>
+            </div>
+        </div>
+
+        {{ range where .Data.Pages "Section" "blog"  }}
+            <article class="container" th:each="blog : ${inventory.getByParam('type', 'blog', 'D')}">
+                <div class="col-md-12">
+                    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                    <div class="meta">
+                        <em>Aleš Rybák</em>, 
+                        <time>{{ .Date.Format "2006-01-02" }}</time>                    
+
+                        <p th:text="${blog.description}">
+                            {{ .Description }}
+                        </p>
+                    </div>
+                </div>
+            </article>
+        {{ end }}
+
+    </div> 
+
+{{ end }}
