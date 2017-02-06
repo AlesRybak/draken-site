@@ -8,8 +8,13 @@
             <div class='column {{ partial "misc/draken-box-link-class" (dict "length" $length) }}'>
                 <div class="card">
                     <div class="card-content has-text-centered">
-                        <div>{{ .title }}</div>
-                        <div><a href="{{ .resultsUrl }}">Výsledky</a></div>
+                        <strong>{{ .title }}</strong>
+                    </div>
+                    <div class="card-footer">
+                        {{ if isset . "planUrl" }}
+                            <a class="card-footer-item" href="{{ .planUrl }}">Rozpis</a>
+                        {{ end }}
+                        <a class="card-footer-item" href="{{ .resultsUrl }}">Výsledky</a>
                     </div>
                 </div>
             </div>
