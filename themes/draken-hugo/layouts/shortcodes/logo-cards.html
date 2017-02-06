@@ -1,0 +1,22 @@
+{{ $file := .Get "file" }}
+{{ $size := .Get "size" }}
+{{ $list := index .Site.Data.partners $file }}
+
+<div class="container">
+    <div class="columns is-multiline">
+        {{ range $list }}
+            <div class='column is-{{ $size }}'>
+                <div class="card">
+                    <div class="card-image" style="background: {{ .background }}">
+                        <figure class="image">
+                            <a href="{{ .url }}"><img src="/images/partners/{{ .image }}"></a>
+                        </figure>
+                    </div>
+                    <div class="card-content has-text-centered">
+                        <a href="{{ .url }}">{{ .name }}</a>
+                    </div>
+                </div>
+            </div>
+        {{ end }}
+    </div>
+</div>

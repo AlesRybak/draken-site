@@ -14,3 +14,8 @@
 .navitem a, a.nav-item {
     color: $dark-blue;
 }
+
+.card {
+    border-radius: 2px;
+    box-shadow: 0 3px 4px rgba($black, 0.1), 0 0 0 1px rgba($blue, 0.2);
+}

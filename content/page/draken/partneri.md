@@ -8,7 +8,4 @@ menu:
     pre: '<span class="icon is-large"><i class="fa fa-handshake-o"></i></span>'
 ---
 
-Lorem ipsum:
-* dolor
-* sit
-* i amet.
+{{< logo-cards file="gold" size="4" >}}

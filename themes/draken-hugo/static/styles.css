@@ -4023,6 +4023,10 @@ body {
 .navitem a, a.nav-item {
   color: #203361; }
 
+.card {
+  border-radius: 2px;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(29, 103, 199, 0.2); }
+
 .draken-centered {
   justify-content: center; }
 
@@ -4032,7 +4036,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   padding: 20px;
-  box-shadow: 0 0 25px -10px #1d67c7;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(29, 103, 199, 0.2);
   border-radius: 5px; }
 
 /*# sourceMappingURL=styles.css.map*/

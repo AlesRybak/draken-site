@@ -1,0 +1,32 @@
+[
+  {
+    "url": "http://www.autonova.cz/",
+    "image": "autonova.png",
+    "name": "Autonova Brno",
+    "background": "white"
+  },
+  {
+    "url": "http://www.brno.cz/",
+    "image": "brno.png",
+    "name": "Statutární město Brno",
+    "background": "#da2027"
+  },
+  {
+    "url": "http://www.hotelpavlov.cz/",
+    "image": "hotel_pavlov.png",
+    "name": "Hotel Pavlov",
+    "background": "white"
+  },
+  {
+    "url": "http://www.trikobrno.cz/",
+    "image": "trickarna.png",
+    "name": "První brněnská tričkárna",
+    "background": "black"
+  },
+  {
+    "url": "http://www.pvagency.cz/",
+    "image": "pvagency.png",
+    "name": "PV Agency",
+    "background": "black"
+  }
+]
