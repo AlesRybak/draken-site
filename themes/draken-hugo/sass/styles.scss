@@ -1,9 +1,17 @@
 @charset "UTF-8";
 
-@import "draken/draken-bulma-config";
+@import "draken/base/config";
 
 @import "bulma/bulma";
 
-@import "draken/draken-top";
-@import "draken/draken-bulma-customizations";
-@import "draken/draken-box";
+@import "draken/base/base";
+
+@import "draken/bulma/customizations";
+
+
+@import "draken/components/avatar";
+@import "draken/components/calendar-icon";
+@import "draken/components/draken-box";
+@import "draken/components/info-box";
+@import "draken/components/match-comments";
+@import "draken/components/tags";

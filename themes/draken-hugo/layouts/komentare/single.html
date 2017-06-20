@@ -1,0 +1,98 @@
+{{ define "banner" }}
+	{{ if isset .Params "hometeam" }}
+		<section class="hero is-dark is-bold has-text">
+			<div class="hero-body">
+				<div class="container">
+					<div class="columns">
+						<div class="column has-text-centered">
+							<p class="subtitle">
+								{{ dateFormat "2.1.2006" .Params.gamedate }}
+							</p>
+						</div>
+					</div>
+					<div class="columns score-board">
+						<div class="column is-5 has-text-right">
+							<h1 class="title">{{ .Params.hometeam }}</h1>
+						</div>
+						<div class="column is-2 has-text-centered">
+							<div class="box">{{ .Params.homescore }}:{{ .Params.guestscore }}</div>
+						</div>
+						<div class="column is-5 has-text-left">
+							<h1 class="title">{{ .Params.guestteam }}</h1>
+						</div>
+					</div>
+					<div class="columns">
+						<div class="column has-text-centered">
+							<p class="subtitle">
+								{{ index .Site.Data.groups .Params.group }}, {{ index .Site.Data.contests .Params.contest }}
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+    {{ else }}
+        <section class="hero is-dark is-bold has-text">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns">
+                        <div class="column has-text-centered">
+                            {{ if isset .Params "group" }}
+                                <p class="subtitle">{{ index .Site.Data.groups .Params.group }}, {{ index .Site.Data.contests .Params.contest }}</p>
+                            {{ end }}
+                            <p class="subtitle">
+                                {{ dateFormat "2.1.2006" .Params.gamedate }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+	{{ end }}
+{{ end }}
+
+{{ define "main" }}
+	<div class="container">
+		<div class="columns">
+			<div class="column is-8-desktop is-offset-2-desktop is-10-tablet is-offset-1-tablet is-12-mobile">
+                <h1 class="title">{{ .Title }}</h1>
+                <div class="content">
+                    {{ .Content }}
+                </div>
+                <div class="info-box">
+                    <div class="level">
+                        <div class="level-item has-text-centered">
+                            <div>
+                                <p><b>Autor</b></p>
+                                <div>
+                                    <img src="/images/authors/{{ .Params.Author }}.jpg" class="avatar" alt="{{ index .Site.Data.authors .Params.Author }}" />
+                                </div>
+                                <div>
+                                    <em>{{ index .Site.Data.authors .Params.Author }}</em>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="level-item has-text-centered">
+                            <div>
+                                <p><b>Datum</b></p>
+                                <p><em>{{ dateFormat "2.1.2006" .Date }}</em></p>
+                            </div>
+                        </div>
+                        {{ if isset .Params "tags" }}
+                            <div class="level-item has-text-centered">
+                                <div>
+                                    <p><b>Štítky</b></p>
+                                    <ul class="tags">
+                                        {{ range .Params.tags }}
+                                        <li><a href="#" class="tag">{{ . }}</a></li>
+                                        {{ end }}
+                                    </ul>
+                                </div>
+                            </div>
+                        {{ end }}
+                    </div>
+                </div>
+			</div>
+		</div>
+	</div>
+{{ end }}

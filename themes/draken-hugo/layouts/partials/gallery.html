@@ -1,0 +1,27 @@
+<div class="container">
+    <div id="links" class="columns is-multiline">
+        {{ range .galData }}
+            {{- $photo := .url -}}
+            {{- $thumb := replace $photo ".jpg" "_m.jpg" -}}
+            {{- $thumb := replace $thumb "gallery" "thumbnails" -}}
+
+            <div class="column is-2">
+                <div class="panel">
+                    <p class="is-marginless">
+                        <a href="{{ $photo }}">
+                            <figure class="image is-1by1">
+                                <img src="{{ $photo }}" />
+                            </figure>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        {{ end }}
+    </div>
+</div>
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <div class="slides"></div> <h3 class="title"></h3>
+    <a class="prev">‹</a> <a class="next">›</a>
+    <a class="close">×</a> <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>

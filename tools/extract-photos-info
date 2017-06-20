@@ -1,0 +1,65 @@
+#!/bin/bash
+
+if [ $# -ne 2 ]; then
+	echo "Usage:"
+	echo "extract-photos-info <source-dir> <target-dir>"
+fi
+
+###############################################################################
+
+FORMAT='
+"width": "%w",
+"height": "%h",
+"author": "%[EXIF:Artist]",
+"copyright": "%[IPTC:2:116]",
+"title": "%[IPTC:2:5]",
+"description": "%[IPTC:2:120]",
+"date": "%[EXIF:DateTimeOriginal]",
+"positionLatitude": "%[EXIF:GPSLatitude] %[EXIF:GPSLatitudeRef]",
+"positionLongitude": "%[EXIF:GPSLongitude] %[EXIF:GPSLongitudeRef]",
+"model": "%[EXIF:Model]",
+"exposureTime": "%[EXIF:ExposureTime]",
+"apperture": "%[EXIF:ApertureValue]",
+"iso": "%[EXIF:ISOSpeedRatings]"
+'
+
+###############################################################################
+
+function extract-info () {
+	SOURCE=$1
+	TARGET=$2
+	URL=$3
+
+	echo $URL
+
+	echo "{" >"$TARGET"
+	echo "\"url\": \"$URL\"," >>"$TARGET"
+	identify -format "$FORMAT" "$SOURCE" >>"$TARGET" 2>/dev/null
+	echo "}" >>"$TARGET"
+	echo "" >>"$TARGET"
+}
+
+###############################################################################
+
+SOURCE_DIR=$1
+TARGET_DIR=$2
+URL_PREFIX="/gallery"
+WORK_DIR=$(pwd)
+
+cd $SOURCE_DIR
+FILE_LIST=$(find . -iname "*.jpg" -o -iname "*.jpeg" | sort)
+cd $WORK_DIR
+
+while read FILE; do
+	FILE="${FILE:2}"
+	SOURCE="$SOURCE_DIR/$FILE"
+	TARGET="$TARGET_DIR/$FILE.json"
+	TARGET_UP=$(dirname ${TARGET})
+	GAL=$(basename ${TARGET_UP})
+	URL="$URL_PREFIX/$GAL/$FILE"
+	if [ ! -d "$TARGET_UP" ]; then mkdir -p "$TARGET_UP"; fi
+	if [ ! -f "$TARGET" ]; then extract-info "$SOURCE" "$TARGET" "$URL"; fi
+done < <(echo "$FILE_LIST")
+
+
+

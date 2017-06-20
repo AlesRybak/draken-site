@@ -1,0 +1,20 @@
+.calendar-icon {
+    text-align: center;
+    margin: 20px 0;
+
+    span {
+        display: block;
+    }
+    .day {
+        font-size: $size-3;
+        line-height: 95%
+    }
+    .month, .year {
+        text-transform: uppercase;
+        font-weight: $weight-bold;
+        font-size: $size-6;
+    }
+    .year {
+        color: $blue;
+    }
+}
