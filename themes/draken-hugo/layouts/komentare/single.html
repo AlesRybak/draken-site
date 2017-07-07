@@ -1,0 +1,78 @@
+{{ define "banner" }}
+	{{ if isset .Params "hometeam" }}
+		<section class="hero is-dark is-bold has-text">
+			<div class="hero-body">
+				<div class="container">
+					<div class="columns score-board">
+						<div class="column is-5 has-text-right">
+							<h1 class="title">{{ .Params.hometeam }}</h1>
+						</div>
+						<div class="column is-2 has-text-centered">
+							<div class="box">{{ .Params.homescore }}:{{ .Params.guestscore }}</div>
+						</div>
+						<div class="column is-5 has-text-left">
+							<h1 class="title">{{ .Params.guestteam }}</h1>
+						</div>
+					</div>
+					<div class="columns">
+						<div class="column has-text-centered">
+							<p class="subtitle">
+								{{ index .Site.Data.groups .Params.group }}, {{ index .Site.Data.contests .Params.contest }}
+							</p>
+						</div>
+					</div>
+                    <div class="columns">
+                        <div class="column has-text-centered">
+                            <p class="subtitle">
+                                {{ dateFormat "2. 1. 2006" .Params.gamedate }}
+                            </p>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</section>
+    {{ else }}
+        <section class="hero is-dark is-bold has-text">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns">
+                        <div class="column has-text-centered">
+                            {{ if isset .Params "group" }}
+                                <p class="subtitle">{{ index .Site.Data.groups .Params.group }}, {{ index .Site.Data.contests .Params.contest }}</p>
+                            {{ end }}
+                            <p class="subtitle">
+                                {{ dateFormat "2.1.2006" .Params.gamedate }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+	{{ end }}
+{{ end }}
+
+{{ define "main" }}
+<section id="main-content" class="section">
+	<div class="container">
+		<div class="columns">
+			<div class="column is-8-desktop is-offset-2-desktop is-10-tablet is-offset-1-tablet is-12-mobile">
+                <h1 class="title">{{ .Title }}</h1>
+                <div class="content">
+                    {{ .Content }}
+                </div>
+                <div class="has-text-centered">
+                    {{ partial "molecules/avatar" (index .Site.Data.authors .Params.Author) }}
+                </div>
+                <div class="has-text-centered">
+                    {{ partial "molecules/page-tags" . }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="hero is-light is-bold has-text">
+    <div class="hero-body">
+        {{ partial "organisms/related-pages" . }}
+    </div>
+</section>
+{{ end }}

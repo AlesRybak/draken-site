@@ -1,0 +1,24 @@
+{{ define "banner" }}
+    <!-- No banner -->
+{{ end }}
+
+{{ define "main" }}
+    <div class="gallery">
+        <div class="container">
+
+            <h2>{{ .Title }}</h2>
+
+            <div>
+                {{ .Description }}
+            </div>
+
+            <p>
+                {{ .Content }}
+            </p>
+
+            {{ partial "gallery" (dict "gal" .File.BaseFileName "galData" (index .Site.Data.gallery .File.BaseFileName)) }}
+
+        </div>
+    </div>
+
+{{ end }}

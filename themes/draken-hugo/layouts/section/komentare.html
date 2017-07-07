@@ -1,0 +1,63 @@
+{{ define "banner" }}
+<!-- No banner -->
+{{ end }}
+
+{{ define "main" }}
+<section id="main-content" class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <h2 class="title">{{ .Title }}</h2>
+            </div>
+        </div>
+
+        <div>
+            {{ range .Data.Pages }}
+                <a href="{{ .URL }}">
+                    <div class="columns match-comment-list-item">
+                        <div class="column is-2 column-highlight-mobile">
+                            <div class="calendar-icon">
+                                <span class="day">{{ dateFormat "2" .Params.gamedate }}</span>
+                                <span class="month">{{ index .Site.Data.system.date.month (dateFormat "1" .Params.gamedate) }}</span>
+                                <span class="year">{{ dateFormat "2006" .Params.gamedate }}</span>
+                            </div>
+                        </div>
+                        <div class="column is-2 has-text-centered column-highlight-mobile">
+                            <strong>
+                            <div class="group-name">{{ index .Site.Data.groups .Params.group }}</div>
+                            &mdash;
+                            <div class="contest-name">{{ index .Site.Data.contests .Params.contest }}</div>
+                            </strong>
+                        </div>
+                        <div class="column is-6 description">
+                            <div>
+                                {{ if isset .Params "hometeam" }}
+                                <div class="score-board">
+                                    <div class="home-team">
+                                        <h2>{{ .Params.hometeam }}</h2>
+                                    </div>
+                                    <div class="box">{{ .Params.homescore }}:{{ .Params.guestscore }}</div>
+                                    <div class="guest-team">
+                                        <h2>{{ .Params.guestteam }}</h2>
+                                    </div>
+                                </div>
+                                {{ else }}
+                                <div>
+                                    <h2 class="title">{{ .Title }}</h2>
+                                    {{ if gt (len .Summary) 200 }}
+                                        <p>{{slicestr .Summary 0 200}}...</p>
+                                    {{ end }}
+                                </div>
+                                {{ end }}
+                            </div>
+                        </div>
+                        <div class="column is-2 has-text-centered is-hidden-mobile">
+                            {{ partial "molecules/avatar" (index .Site.Data.authors .Params.Author) }}
+                        </div>
+                    </div>
+                </a>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

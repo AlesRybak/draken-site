@@ -7,5 +7,3 @@ menu:
     identifier: 'squash'
     weight: 300
 ---
-
-{{< sub-navigation >}}

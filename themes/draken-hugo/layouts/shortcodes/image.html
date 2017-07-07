@@ -1,0 +1,20 @@
+{{- $file := .Get "file" | default "" -}}
+{{- $title := .Get "title" | default "" -}}
+<div class="container">
+    <div class="columns">
+        <div class="column is-10 is-offset-1 has-text-centered">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image">
+                        <img src="/images/{{ $file }}">
+                    </figure>
+                </div>
+                {{ if ne $title "" }}
+                    <div class="card-footer">
+                        <span class="card-footer-item">{{ $title }}</span>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>

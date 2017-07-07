@@ -1,0 +1,155 @@
+.score-board {
+    align-items: center;
+    .box {
+        color: $dark;
+        font-size: $size-3;
+        padding: 3px;
+    }
+    @include mobile {
+        .has-text-left {
+            text-align: center;
+        }
+
+        .has-text-right {
+            text-align: center;
+        }
+    }
+}
+
+.match-comment-list-item {
+    align-items: stretch;
+    justify-items: center;
+    margin-top: 28px;
+    background: $white;
+    border-radius: 3px;
+    box-shadow: $shadow-thin;
+    flex-direction: row;
+    color: $black;
+
+    @include tablet {
+        .column:not(:first-child) {
+            border-left: solid 1px rgba($blue, 0.3);
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+    }
+
+    .description div {
+        width: 100%;
+    }
+
+    .score-board {
+
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+
+        .box {
+            color: $dark;
+            font-size: $size-5;
+            padding: 3px;
+            width: 100px;
+            text-align: center;
+            margin: 0 auto;
+            font-weight: $weight-bold;
+            flex: 1 0 100px;
+        }
+
+        .home-team, .guest-team {
+            flex: 2 1 200px;
+        }
+        .home-team {
+            h2 {
+                text-align: right;
+            }
+            margin-right: 10px;
+        }
+        .guest-team {
+            h2 {
+                text-align: left;
+            }
+            margin-left: 10px;
+        }
+
+        h2, .shout {
+            font-size: $size-5;
+            //font-weight: $weight-bold;
+        }
+    }
+    h2, .shout {
+        font-size: $size-5;
+        font-weight: $weight-normal;
+        text-align: center;
+    }
+    .title {
+        margin-bottom: 7px;
+        //font-weight: $weight-bold;
+    }
+
+    @include mobile {
+
+        .column {
+            border-left: none;
+        }
+
+        .description {
+            border-top: solid 1px rgba($blue, 0.3);
+        }
+
+        .action {
+            padding: 0.75rem;
+        }
+
+        .calendar-icon {
+            margin: 0;
+
+            span {
+                display: inline;
+            }
+            .day {
+                font-size: $size-6;
+                line-height: 100%;
+            }
+            .day::after {
+                content: ".";
+            }
+            .month, .year {
+                text-transform: lowercase;
+                font-weight: $weight-normal;
+            }
+            .year {
+                color: $text;
+                font-weight: $weight-normal;
+            }
+        }
+
+        .box {
+            color: $dark;
+            font-size: $size-5;
+            padding: 3px;
+            width: 180px;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        h2, .shout {
+            text-align: center;
+            font-size: $size-5;
+        }
+
+        .group-name, .contest-name {
+            display: inline;
+        }
+
+        .column {
+            padding: 0.2rem 0.75rem;
+        }
+
+        .column-highlight-mobile {
+            background: rgba($blue, 0.1);
+            color: $black;
+        }
+    }
+}

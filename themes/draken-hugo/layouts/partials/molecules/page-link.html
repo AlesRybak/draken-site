@@ -1,17 +1,14 @@
-<div class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
-    <div class="page-link">
-        <div class="preview">
-            <a href="{{ .Permalink }}">
-                <div class="gallery-preview" style="background-image: url(
-                    '{{ partial "atoms/page-thumb" (dict "page" . "thumbType" "h") }}'
-                )"></div>
-            </a>
+<div class="column is-2-desktop is-3-tablet is-6-mobile">
+    <a href="{{ .Permalink }}">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-2by1">
+                    <img src='{{ partial "atoms/page-thumb" (dict "page" . "thumbType" "h") }}' alt="{{ .Title }}">
+                </figure>
+            </div>
+            <div class="card-content">
+                <h4 class="title is-6">{{ .Title }}</h4>
+            </div>
         </div>
-        <div class="type">
-            <span th:text="${p.params.getValue('typeText')}">{{ .Type }}</span>
-        </div>
-        <div class="title">
-            <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-        </div>
-    </div>
+    </a>
 </div>

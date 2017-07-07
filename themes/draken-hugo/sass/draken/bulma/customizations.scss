@@ -16,6 +16,21 @@
 }
 
 .card {
-    border-radius: 2px;
-    box-shadow: 0 3px 4px rgba($black, 0.1), 0 0 0 1px rgba($blue, 0.2);
+    border-radius: 3px;
+    box-shadow: $shadow-thin;
+}
+
+.content p {
+    margin-top: 1em;
+}
+
+pre {
+    font-size: $size-6;
+    @include desktop {
+        margin: 10px 100px;
+    }
+}
+
+.image {
+    margin: 0 auto;
 }

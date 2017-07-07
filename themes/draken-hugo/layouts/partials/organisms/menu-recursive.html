@@ -1,0 +1,35 @@
+<!-- layouts/partials/menu_recursive.html -->
+{{ $page := .page }}
+{{ $site := .site }}
+
+{{ range .menu }}
+    {{ $is := $page.IsMenuCurrent "main" . }}
+    {{ $has := $page.HasMenuCurrent "main" . }}
+
+    {{ if $has }}
+        {{ partial "organisms/menu-recursive.html" (dict "menu" .Children "page" $page "site" $site) }}
+    {{ else if $is }}
+        <section class="section">
+            <div class="container">
+                <h1 class="title">{{ .Name }}</h1>
+                <div class="columns is-multiline draken-centered">
+                    {{ $length := len .Children }}
+
+                    {{ range .Children }}
+                        <div class='column {{ partial "misc/draken-box-link-class" (dict "length" $length) }}'>
+                            <div class="draken-box has-text-centered">
+                                <a href="{{ .URL }}">
+                                    <div class="is-large">
+                                        {{ partial "atoms/page-icon" .URL }}
+                                    </div>
+                                    <div>{{ .Name }}</div>
+                                </a>
+                            </div>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+        </section>
+
+    {{ end }}
+{{ end }}

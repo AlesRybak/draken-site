@@ -24,11 +24,15 @@
 	{{- end -}}
 {{- else if (eq .page.Type "video") -}}
 	{{- delimit (slice "/thumbnails/video/" .page.Params.video "_" $.thumbType ".jpg") "" -}}
-{{- else -}}
-	{{- if isset .page.Params "thumbnail" -}}
-		{{- if hasPrefix .page.Params.thumbnail "/" -}}
-			{{- $thumb := replace .page.Params.thumbnail "." "_TYPE." -}}
-			{{- replace $thumb "TYPE" .thumbType -}}
-		{{- end -}}
+{{- else if isset .page.Params "thumbnail" -}}
+	{{- if hasPrefix .page.Params.thumbnail "/" -}}
+		{{- $thumb := replace .page.Params.thumbnail "." "_TYPE." -}}
+		{{- replace $thumb "TYPE" .thumbType -}}
 	{{- end -}}
+{{- else if (eq .page.Type "fotogalerie") -}}
+	/images/pages/galerie_{{ .thumbType }}.png
+{{- else if (eq .page.Type "komentare") -}}
+	/images/pages/komentare_{{ .thumbType }}.png
+{{- else -}}
+	/images/pages/unknown_{{ .thumbType }}.png
 {{- end -}}

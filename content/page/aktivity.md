@@ -7,5 +7,3 @@ menu:
     identifier: 'aktivity'
     weight: 400
 ---
-
-{{< sub-navigation >}}

@@ -1,0 +1,11 @@
+.info-box {
+    box-shadow: $shadow-big;
+    border-radius: 3px;
+    margin: 10px -10px;
+    background: $white;
+
+    .level-item:not(:first-child) {
+        border-left: solid 1px rgba($blue, 0.3);
+        padding: 7px 0;
+    }
+}

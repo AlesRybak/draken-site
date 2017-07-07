@@ -1,0 +1,9 @@
+{{- $directory := "static/images/page-icons/" -}}
+{{- $url := . -}}
+{{- $filename := replaceRE "^.*\\/([-_A-Za-z0-9.]+)\\/" "${1}.png" $url -}}
+
+{{- if (where (readDir $directory) "Name" $filename) -}}
+    <img src="/images/page-icons/{{$filename}}" alt="{{.}}">
+{{- else -}}
+    <img src="/images/page-icons/unknown.png" alt="{{.}}"/>
+{{- end -}}

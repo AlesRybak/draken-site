@@ -7,5 +7,3 @@ menu:
     identifier: 'kontakt'
     weight: 1000
 ---
-
-{{< sub-navigation >}}

@@ -1,0 +1,13 @@
+.gal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.item {
+    background: skyblue;
+    margin: 3px;
+    padding: 40px;
+    flex-grow: 1;
+    max-width: 30%;
+}

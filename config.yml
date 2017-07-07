@@ -9,7 +9,8 @@ menu:
   main:
     - identifier: 'radost-na-drakenu'
       name: "Radost na Drakenu"
-      weight: 500
+      weight: 400
+
 
 params:
   sidebar: "left"
