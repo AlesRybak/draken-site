@@ -1,17 +1,17 @@
 {{ define "banner" }}
-	<!-- No banner ;-) -->
+	{{ partial "organisms/menu-recursive" (dict "menu" .Site.Menus.main "page" . "site" .Site) }}
 {{ end }}
 
 {{ define "main" }}
-
-<div class="container">
-	<div class="columns">
-		<div class="column">
-			<div class="content">
-				{{ .Content }}
+<section class="section">
+	<div class="container">
+		<div class="columns">
+			<div class="column">
+				<div class="content">
+					{{ .Content }}
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-
+</section>
 {{ end }}
