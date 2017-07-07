@@ -1,18 +1,18 @@
 .tags {
     list-style: none;
-    margin: 0;
+    margin: 24px 0;
     overflow: hidden;
     padding: 0;
 }
 
 .tags li {
-    float: left;
+    display: inline;
 }
 
 .tag {
-    background: #eee;
+    background: $grey-lighter;
     border-radius: 3px 0 0 3px;
-    color: #999;
+    color: $grey-dark;
     display: inline-block;
     height: 26px;
     line-height: 26px;
@@ -24,7 +24,7 @@
 }
 
 .tag::before {
-    background: #fff;
+    background: $white;
     border-radius: 10px;
     box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
     content: '';
@@ -36,9 +36,9 @@
 }
 
 .tag::after {
-    background: #fff;
+    background: $white;
     border-bottom: 13px solid transparent;
-    border-left: 10px solid #eee;
+    border-left: 10px solid $grey-lighter;
     border-top: 13px solid transparent;
     content: '';
     position: absolute;
@@ -47,10 +47,10 @@
 }
 
 .tag:hover {
-    background-color: crimson;
+    background-color: $primary;
     color: white;
 }
 
 .tag:hover::after {
-    border-left-color: crimson;
+    border-left-color: $primary;
 }

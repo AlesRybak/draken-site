@@ -4096,11 +4096,12 @@ img.avatar {
 .match-comment-list-item {
   align-items: stretch;
   justify-items: center;
-  margin-top: 10px;
+  margin-top: 28px;
   background: white;
   border-radius: 3px;
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(29, 103, 199, 0.2);
-  flex-direction: row; }
+  flex-direction: row;
+  color: black; }
   @media screen and (min-width: 769px) {
     .match-comment-list-item .column:not(:first-child) {
       border-left: solid 1px rgba(29, 103, 199, 0.3);
@@ -4113,7 +4114,7 @@ img.avatar {
   .match-comment-list-item .score-board {
     display: flex;
     justify-content: center;
-    margin: 20px 10px 10px; }
+    margin: 10px 0; }
     .match-comment-list-item .score-board .box {
       color: #111425;
       font-size: 1.5rem;
@@ -4134,18 +4135,18 @@ img.avatar {
       .match-comment-list-item .score-board .guest-team h2 {
         text-align: left; }
     .match-comment-list-item .score-board h2, .match-comment-list-item .score-board .shout {
-      font-size: 16px;
-      font-weight: 700; }
+      font-size: 1.5rem; }
   .match-comment-list-item h2, .match-comment-list-item .shout {
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center; }
   .match-comment-list-item .title {
     margin-bottom: 7px; }
   @media screen and (max-width: 768px) {
     .match-comment-list-item .column {
       border-left: none; }
     .match-comment-list-item .description {
-      border-top: solid 1px rgba(29, 103, 199, 0.3);
-      border-bottom: solid 1px rgba(29, 103, 199, 0.3); }
+      border-top: solid 1px rgba(29, 103, 199, 0.3); }
     .match-comment-list-item .action {
       padding: 0.75rem; }
     .match-comment-list-item .calendar-icon {
@@ -4176,21 +4177,24 @@ img.avatar {
     .match-comment-list-item .group-name, .match-comment-list-item .contest-name {
       display: inline; }
     .match-comment-list-item .column {
-      padding: 0.2rem 0.75rem; } }
+      padding: 0.2rem 0.75rem; }
+    .match-comment-list-item .column-highlight-mobile {
+      background: rgba(29, 103, 199, 0.1);
+      color: black; } }
 
 .tags {
   list-style: none;
-  margin: 0;
+  margin: 24px 0;
   overflow: hidden;
   padding: 0; }
 
 .tags li {
-  float: left; }
+  display: inline; }
 
 .tag {
-  background: #eee;
+  background: #dbdbdb;
   border-radius: 3px 0 0 3px;
-  color: #999;
+  color: #4a4a4a;
   display: inline-block;
   height: 26px;
   line-height: 26px;
@@ -4201,7 +4205,7 @@ img.avatar {
   -webkit-transition: color 0.2s; }
 
 .tag::before {
-  background: #fff;
+  background: white;
   border-radius: 10px;
   box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
   content: '';
@@ -4212,9 +4216,9 @@ img.avatar {
   top: 10px; }
 
 .tag::after {
-  background: #fff;
+  background: white;
   border-bottom: 13px solid transparent;
-  border-left: 10px solid #eee;
+  border-left: 10px solid #dbdbdb;
   border-top: 13px solid transparent;
   content: '';
   position: absolute;
@@ -4222,10 +4226,10 @@ img.avatar {
   top: 0; }
 
 .tag:hover {
-  background-color: crimson;
+  background-color: #1d67c7;
   color: white; }
 
 .tag:hover::after {
-  border-left-color: crimson; }
+  border-left-color: #1d67c7; }
 
 /*# sourceMappingURL=styles.css.map*/
