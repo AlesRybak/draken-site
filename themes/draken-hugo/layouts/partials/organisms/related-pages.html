@@ -26,11 +26,12 @@
 {{ with ($.Scratch.Get "allMatches") }}
 	<div class="related">
 		<div class="container">
-			<h3>Příbuzný obsah</h3>
+			<h3 class="title is-4">Příbuzný obsah</h3>
+			<div class="columns is-mobile">
 				{{ range first 6 . }}
-					{{ partial "molecules/page-link" . }}
+				    {{ partial "molecules/page-link" . }}
 				{{ end }}
-				</ul>
+			</div>
 		</div>
 	</div>
 {{ end }}
