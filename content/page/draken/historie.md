@@ -5,7 +5,7 @@ path: '/draken'
 menu:
   main:
     parent: draken
-    pre: '<span class="icon is-large"><i class="fa fa-book"></i></span>'
+    pre: '<img src="/images/page-icons/historie.png" alt="historie"/>'
 
 ---
 

@@ -4,7 +4,7 @@ date: 2017-02-02
 menu:
   main:
     parent: hazena
-tak: bbb
+    pre: '<img src="/images/page-icons/josk.png" alt="josk"/>'
 ---
 
 

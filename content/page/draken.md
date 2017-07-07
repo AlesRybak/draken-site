@@ -7,5 +7,3 @@ menu:
     identifier: 'draken'
     weight: 100
 ---
-
-{{< sub-navigation >}}

@@ -5,4 +5,5 @@ url: '/hazena/komentare'
 menu:
   main:
     parent: hazena
+    pre: '<img src="/images/page-icons/komentare.png" alt="komentare"/>'
 ---

@@ -7,5 +7,3 @@ menu:
     identifier: 'hazena'
     weight: 200
 ---
-
-{{< sub-navigation >}}

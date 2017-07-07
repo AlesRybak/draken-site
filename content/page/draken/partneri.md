@@ -5,7 +5,7 @@ path: '/draken'
 menu:
   main:
     parent: draken
-    pre: '<span class="icon is-large"><i class="fa fa-handshake-o"></i></span>'
+    pre: '<img src="/images/page-icons/partneri.png" alt="partneri"/>'
 ---
 
 {{< logo-cards file="gold" size="4" >}}
