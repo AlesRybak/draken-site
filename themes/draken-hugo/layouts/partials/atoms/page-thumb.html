@@ -1,4 +1,4 @@
-{{- if eq .page.Type "gallery" -}}
+{{- if eq .page.Type "fotogalerie" -}}
 	{{- if isset .page.Params "cover" -}}
 		{{- if hasPrefix .page.Params.cover "/" -}}
 			{{- $thumb := replace .page.Params.cover "." "_TYPE." -}}
@@ -8,14 +8,14 @@
 			{{- $thumb := replaceRE "^(.+)\\.([a-z]+)" "/${1}_TYPE.$2" $thumb -}}
 			{{- $thumb := replace $thumb "TYPE" .thumbType -}}
 			{{- $path := .page.File.Path -}}
-			{{- $path := replace $path "gallery" "thumbnails" -}}
+			{{- $path := replace $path "fotogalerie" "thumbnails" -}}
 			{{- $path := replaceRE "^([^/])" "/$1" $path -}}
 			{{- replace $path ".html" $thumb -}}
 		{{- end -}}
 	{{- else -}}
 		{{- $path := .page.File.Path -}}
-		{{- $path := replace $path "gallery" "photos" -}}
-		{{- $path := replace $path ".html" "" -}}
+		{{- $path := replace $path "fotogalerie" "photos" -}}
+		{{- $path := replace $path ".md" "" -}}
 
 		{{-  range first 1 (readDir (delimit (slice "static" $path) "/")) -}}
 			{{- $thumb := replace .Name "." (delimit (slice "_" $.thumbType ".") "") -}}
