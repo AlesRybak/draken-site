@@ -1,8 +1,9 @@
+var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var path = require('path');
 
 module.exports = {
-    entry: './app/main.js',
+    entry: ['./app/app.js'],
 
     output: {
         filename: 'app.js',
@@ -17,7 +18,7 @@ module.exports = {
                 loader: ExtractTextPlugin.extract('css-loader?sourceMap!sass-loader?sourceMap')
             },
             {
-                test: /\.jpe?g$|\.gif$|\.png$/i,
+                test: /\.(jpe?g|gif|png|svg)$/i,
                 loader: "file-loader?name=/images/[name].[ext]"
             }
             // {
@@ -30,7 +31,10 @@ module.exports = {
     devtool: 'source-map',
 
     plugins: [
-        new ExtractTextPlugin({ filename: 'styles.css', disable: false, allChunks: true })
+        new ExtractTextPlugin({ filename: 'styles.css', disable: false, allChunks: true }),
+        new webpack.ProvidePlugin({
+            blueimp: 'blueimp-gallery/js/blueimp-gallery'
+        })
     ]
 
 };

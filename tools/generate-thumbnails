@@ -1,0 +1,115 @@
+#!/usr/local/bin/groovy
+@Grab(group='org.codehaus.gpars', module='gpars', version='1.2.1')
+@Grab(group='org.jyaml', module='jyaml', version='1.3')
+
+import groovy.io.FileType
+import groovyx.gpars.GParsPool
+import org.ho.yaml.Yaml
+
+class ThumbsSize {
+    String suffix = ".thumb"
+    String nameSuffix = ""
+    int width = 200
+    int height = 200
+    int quality = 90
+    boolean fill = true
+}
+
+class ThumbsSource {
+    String srcDir = "."
+    String outDir = "out"
+    List<ThumbsSize> sizes;
+}
+
+class ThumbsJob {
+    List<ThumbsSource> sources;
+}
+
+def scaleImage(String src, String out, int q, int w, int h, boolean fill) {
+    String command
+    if (fill) {
+        command = "convert ${src} -quality ${q} -gravity Center -resize ${w}x${h}^ -crop ${w}x${h}+0+0 +repage -sharpen 0x1 ${out}"
+    } else {
+        command = "convert ${src} -quality ${q} -gravity Center -resize ${w}x${h} -sharpen 0x1 ${out}"
+    }
+
+    def proc = command.execute()
+    proc.waitFor()
+    if (proc.exitValue() != 0) {
+        println("exit code: " + proc.exitValue())
+        println("err output: ")
+        println(proc.err.text)
+    }
+}
+
+def boolean shouldGenerate(File imgSrcFile, File imgOutFile) {
+    if (!imgOutFile.exists()) {
+        return true;
+    } else {
+        return imgOutFile.lastModified() < imgSrcFile.lastModified()
+    }
+}
+
+String getSuffixedPath(String origPath, String suffix, String nameSuffix) {
+    String path = origPath
+
+    if (nameSuffix) {
+        path = path.substring(0, path.lastIndexOf('.')) + nameSuffix + ".jpg"
+    }
+
+    if (suffix) {
+        path = path + suffix + ".jpg"
+    }
+
+    return path
+}
+
+//
+// Script
+//
+
+if (args.size() != 1) {
+    println "only one param, please"
+    System.exit(1)
+}
+
+ThumbsJob job = Yaml.loadType(new File(args[0]), ThumbsJob)
+//println job.dump()
+
+job.sources.each { source ->
+    def sourceSrcDir = new File(source.srcDir);
+    def sourceOutDir = new File(source.outDir);
+    def imageFiles = []
+    sourceSrcDir.eachFileRecurse(FileType.FILES) {
+        if (it.name.endsWith(".jpg")) {
+            imageFiles << it.path.substring(sourceSrcDir.path.length())
+        }
+    }
+
+    GParsPool.withPool {
+        imageFiles.eachParallel { imgPath ->
+            File imgSrcFile = new File(sourceSrcDir, imgPath)
+            File outDir = new File(sourceOutDir, imgPath).parentFile
+
+            if (!outDir.isDirectory()) {
+                if (outDir.exists()) {
+                    println("Unable to create directory ${outDir}")
+                    System.exit(1)
+                } else {
+                    outDir.mkdirs() && println("Created output directory ${outDir}")
+                }
+            }
+
+            source.sizes.each { size ->
+                String suffixedImgPath = getSuffixedPath(imgPath, size.suffix, size.nameSuffix)
+                File imgOutFile = new File(sourceOutDir, suffixedImgPath)
+                if (shouldGenerate(imgSrcFile, imgOutFile)) {
+                    println "${imgSrcFile} --> ${imgOutFile}"
+                    scaleImage(imgSrcFile.path, imgOutFile.path, size.quality, size.width, size.height, size.fill);
+                } else {
+                    //println("${imgOutFile} -- no change")
+                }
+            }
+        }
+    }
+}

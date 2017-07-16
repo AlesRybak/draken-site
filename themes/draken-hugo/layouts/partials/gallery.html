@@ -1,20 +1,14 @@
 <div class="container">
-    <div id="links" class="columns is-multiline">
+    <div id="links" class="columns is-multiline is-mobile">
         {{ range .galData }}
             {{- $photo := .url -}}
             {{- $thumb := replace $photo ".jpg" "_m.jpg" -}}
-            {{- $thumb := replace $thumb "gallery" "thumbnails" -}}
+            {{- $thumb := replace $thumb "photos" "thumbnails" -}}
 
-            <div class="column is-2">
-                <div class="panel">
-                    <p class="is-marginless">
-                        <a href="{{ $photo }}">
-                            <figure class="image is-1by1">
-                                <img src="{{ $photo }}" />
-                            </figure>
-                        </a>
-                    </p>
-                </div>
+            <div class="column is-2-desktop is-3-tablet is-4-mobile">
+                <a href="{{ $photo }}">
+                    <img src="{{ $thumb }}" />
+                </a>
             </div>
         {{ end }}
     </div>

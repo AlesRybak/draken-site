@@ -43,7 +43,7 @@ function extract-info () {
 
 SOURCE_DIR=$1
 TARGET_DIR=$2
-URL_PREFIX="/gallery"
+URL_PREFIX="/photos"
 WORK_DIR=$(pwd)
 
 cd $SOURCE_DIR
