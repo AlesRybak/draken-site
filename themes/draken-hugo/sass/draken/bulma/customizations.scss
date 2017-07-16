@@ -1,8 +1,20 @@
+.section {
+    background-color: transparent;
+}
+
+.footer {
+    background-color: $light;
+}
+
+.nav {
+    background-color: transparent;
+}
+
 .nav-item {
     text-transform: uppercase;
     font-weight: $weight-bold;
     img {
-        max-height: 5rem;
+        max-height: $nav-height;
     }
     @include mobile {
         img {
