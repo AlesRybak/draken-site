@@ -6,15 +6,9 @@
             {{- $thumb := replace $thumb "photos" "thumbnails" -}}
 
             <div class="column is-2-desktop is-3-tablet is-4-mobile">
-                <div class="panel">
-                    <p class="is-marginless">
-                        <a href="{{ $photo }}">
-                            <figure class="image is-1by1">
-                                <img src="{{ $thumb }}" />
-                            </figure>
-                        </a>
-                    </p>
-                </div>
+                <a href="{{ $photo }}">
+                    <img src="{{ $thumb }}" />
+                </a>
             </div>
         {{ end }}
     </div>
