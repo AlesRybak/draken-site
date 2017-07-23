@@ -1,10 +1,10 @@
 ---
 title: 'Informace JOSK'
 date: 2017-02-02
+url: '/hazena/informace-josk'
 menu:
   main:
     parent: hazena
-    pre: '<img src="/images/page-icons/josk.png" alt="josk"/>'
 ---
 
 

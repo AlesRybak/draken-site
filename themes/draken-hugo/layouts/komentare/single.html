@@ -41,7 +41,8 @@
                                 <p class="subtitle">{{ index .Site.Data.groups .Params.group }}, {{ index .Site.Data.contests .Params.contest }}</p>
                             {{ end }}
                             <p class="subtitle">
-                                {{ dateFormat "2.1.2006" .Params.gamedate }}
+                                {{- $date := index .Params "gamedate" | default .Params.date -}}
+                                {{ dateFormat "2.1.2006" $date }}
                             </p>
                         </div>
                     </div>

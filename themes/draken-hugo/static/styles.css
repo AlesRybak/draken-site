@@ -4418,6 +4418,15 @@ img.avatar {
       background: rgba(29, 103, 199, 0.1);
       color: black; } }
 
+.pageicon {
+  width: 96px;
+  height: 96px; }
+
+img.pictogram {
+  width: 32px;
+  height: 32px;
+  vertical-align: -40%; }
+
 .tags {
   list-style: none;
   margin: 24px 0;

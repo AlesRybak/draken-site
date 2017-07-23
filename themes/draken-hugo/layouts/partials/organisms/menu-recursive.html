@@ -9,6 +9,7 @@
     {{ if $has }}
         {{ partial "organisms/menu-recursive.html" (dict "menu" .Children "page" $page "site" $site) }}
     {{ else if $is }}
+        {{ if gt (len .Children) 0 }}
         <section class="section">
             <div class="container">
                 <h1 class="title">{{ .Name }}</h1>
@@ -30,6 +31,6 @@
                 </div>
             </div>
         </section>
-
+        {{ end }}
     {{ end }}
 {{ end }}

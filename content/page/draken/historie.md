@@ -1,7 +1,7 @@
 ---
 title: 'Historie'
 date: 2017-02-02
-path: '/draken'
+url: '/draken/historie'
 menu:
   main:
     parent: draken

@@ -1844,8 +1844,11 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__gallery__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sass_styles_scss__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sass_styles_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__sass_styles_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__extenal_links__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__extenal_links___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__extenal_links__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sass_styles_scss__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sass_styles_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__sass_styles_scss__);
+
 
 
 
@@ -1910,6 +1913,19 @@ window.YT&&YT.Player?this.player||(this.player=new YT.Player(this.element,{video
 
 module.exports = __webpack_require__(3);
 
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports) {
+
+
+var links = document.links;
+
+for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+    if (links[i].hostname !== window.location.hostname) {
+        links[i].target = '_blank';
+    }
+}
 
 /***/ })
 /******/ ]);
