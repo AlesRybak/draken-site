@@ -1,7 +1,11 @@
 {
   "1-liga": "1. liga",
   "2-liga-a": "2. liga - západní divize",
-  "2-liga-b": "2. liga - vchodní divize",
+  "2-liga-b": "2. liga - východní divize",
   "jmop": "Jihomoravský oblastní přebor",
-  "vanocni-turnaj": "Vánoční turnaj"
+  "zlm": "Zimní liga mládeže",
+  "zhp": "Zimní halový pohár",
+  "cp": "Český pohár",
+  "vanocni-turnaj": "Vánoční turnaj",
+  "pripravny-turnaj": "Přípravný turnaj"
 }

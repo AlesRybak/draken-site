@@ -1,13 +1,16 @@
 ---
 title: 'Informace SNH'
 date: 2016-09-17
+url: '/hazena/informace-snh'
 menu:
   main:
     parent: hazena
-    pre: '<img src="/images/page-icons/snh.png" alt="snh"/>'
 ---
 
-Lorem ipsum:
-* dolor
-* sit
-* i amet.
+# Informace SNH
+
+Všechny důležité informace poskytované Svazem národní házené je možné nalézt v elektronické podobě na oficiálních stránkách:
+
+
+
+{{< simple-link href="http://www.svaznarodnihazene.cz" img="/images/content/logo_snh.png" alt="Svaz národní házené" >}}

@@ -33,6 +33,8 @@
 	/images/pages/galerie_{{ .thumbType }}.png
 {{- else if (eq .page.Type "komentare") -}}
 	/images/pages/komentare_{{ .thumbType }}.png
+{{- else if (eq .page.Type "aktuality") -}}
+	/images/pages/aktuality_{{ .thumbType }}.png
 {{- else -}}
 	/images/pages/unknown_{{ .thumbType }}.png
 {{- end -}}

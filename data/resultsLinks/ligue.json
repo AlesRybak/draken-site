@@ -1,26 +1,26 @@
 [
   {
-    "title": "1. Liga - Muži",
+    "title": "1. liga mužů",
     "resultsUrl": "http://svaznarodnihazene.cz/164-1-liga-muzu-201617-rozpis-utkani-podzim-2016"
   },
   {
-    "title": "1. Liga - Ženy",
+    "title": "2. liga mužů - skupina A",
+    "resultsUrl": "http://svaznarodnihazene.cz/164-1-liga-muzu-201617-rozpis-utkani-podzim-2016"
+  },
+  {
+    "title": "2. liga mužů - skupina B",
     "resultsUrl": "http://svaznarodnihazene.cz/180-1-liga-zen-201617-rozpis-utkani-podzim-2016"
   },
   {
-    "title": "1. Liga - Muži",
-    "resultsUrl": "http://svaznarodnihazene.cz/164-1-liga-muzu-201617-rozpis-utkani-podzim-2016"
-  },
-  {
-    "title": "1. Liga - Ženy",
+    "title": "1. liga žen",
     "resultsUrl": "http://svaznarodnihazene.cz/180-1-liga-zen-201617-rozpis-utkani-podzim-2016"
   },
   {
-    "title": "1. Liga - Muži",
+    "title": "2. liga žen - skupina A",
     "resultsUrl": "http://svaznarodnihazene.cz/164-1-liga-muzu-201617-rozpis-utkani-podzim-2016"
   },
   {
-    "title": "1. Liga - Ženy",
+    "title": "2. liga žen - skupina B",
     "resultsUrl": "http://svaznarodnihazene.cz/180-1-liga-zen-201617-rozpis-utkani-podzim-2016"
   }
 ]

@@ -4418,6 +4418,36 @@ img.avatar {
       background: rgba(29, 103, 199, 0.1);
       color: black; } }
 
+.pageicon {
+  width: 96px;
+  height: 96px; }
+
+.page-link .image-overlay {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  text-align: right; }
+  .page-link .image-overlay .link-icon {
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 36px;
+    width: 36px;
+    padding: 2px;
+    display: inline-block; }
+    .page-link .image-overlay .link-icon img {
+      width: 32px;
+      height: 32px; }
+
+.page-link .card .card-image img {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px; }
+
+img.pictogram {
+  width: 32px;
+  height: 32px;
+  vertical-align: -40%; }
+
 .tags {
   list-style: none;
   margin: 24px 0;

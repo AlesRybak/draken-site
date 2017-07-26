@@ -9,7 +9,14 @@ menu:
   main:
     - identifier: 'radost-na-drakenu'
       name: "Radost na Drakenu"
+      url: "http://radost-na-drakenu.webnode.cz/"
+      parent: aktivity
       weight: 400
+    - identifier: 'squash-rezervace'
+      name: "Rezervace"
+      parent: squash
+      weight: 100
+      url: http://squash-draken.isportsystem.cz/
 
 
 params:

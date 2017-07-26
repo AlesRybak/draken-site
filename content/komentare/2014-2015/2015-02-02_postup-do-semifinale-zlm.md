@@ -1,0 +1,37 @@
+---
+title: "Postup do semifinále Zimní ligy mládeže"
+date: 2015-02-02
+gameDate: 2015-02-02
+author: slacha
+tags: ["hazena", "draken", "dorky", "zimni-liga"]
+season: "2014-2015"
+group: "dorky"
+contest: "zlm"
+---
+
+Po povedeném vystoupení v jihlavském základním kole Zimní ligy mládeže vyrazily drakenské dorostenky o dva týdny později do Staré Vsi nad Ondřejnicí sehrát čtvrtfinálový turnaj této nově vzniklé soutěže. Výjezd to byl výjimečný již z toho důvodu, že se holky poprvé ve své krátké házenkářské kariéře dostaly mimo jihomoravskou oblast a narazily na skutečně kvalitní severomoravské celky. A zážitek to byl vskutku poučný.. 
+
+Na turnaji se představilo 6 týmů. Severomoravskou oblast zastupovaly Stará Ves (postup z 1. místa v základním kole), Svinov (2.) a Studénka (3.). Jihomoravskou oblast pak reprezentovaly Vracov (1.), Draken Brno (2.) a Jihlava (3.). Hrály se dvě základní skupiny (ve skupině "A" nastoupily St. Ves, Draken a Studénka;  ve skupině "B" Vracov, Svinov a Jihlava) z nichž si vítěz zajistil přímý postup do turnajového semifinále, zatímco týmy na 2. a 3. místě sehrály do kříže čtvrtfinále. Postupový klíč byl takový, že do další fáze Zimní ligy postupovaly 4 nejvýše postavené týmy. Stačilo tak dosáhnout semifinále.
+
+Turnaj jsme brali především jako kvalitní přípravu na jarní část sezony a možnost srovnání s dosud neznámými týmy a herními styly. O našich případných postupových ambicích měl více naznačit již úvodní zápas se Studénkou, která představovala papírově nejslabší zúčastněný severomoravský celek. Zápas naznačil poměrně jasně - holky se nebyly schopny vyrovnat se silovějším pojetím házené v podání soupeře a prohrály jasně 6:14. Nedařilo se ani na jedné straně hřiště, zaostávali jsme ve všech směrech.
+
+Druhý zápas s domácí Starou Vsí pak byl ještě větší školou. Prohra 2:9 byla milosrdným výsledkem, kvalitativní rozdíl mezi oběma týmy byl propastný. Především slabá hra našeho útoku neměla proti  domácí obraně nárok. Domácí útok naopak předváděl oku lahodící běhavou kombinační házenou s precizním zakončováním šancí. Až po prostřídání za mladší hráčky na domácí straně došlo k částečnému srovnání herního obrazu a přibylo chyb. Holky si v tomto zápase mohly zblízka (a zdarma) prohlédnout reklamu na dívčí národní házenou v plné kráse. Kéž by si z toho něco odnesly..
+
+Síly byly rozloženy jasně, o našem posledním místě ve skupině nebylo pochyb. Skóre 8:23 bylo ostudné. Z prvního místa postupovala Stará Ves a již po základní skupině tak měla zajištěnou další fázi ZL. Ve druhé skupině proběhly vyrovnanější boje. Velice dobře se na turnaji prezentovala Jihlava, která rozhodně nepřipomínala toho "třetího vzadu z Jižní Moravy". Svinovu i Vracovu nasázela 11 branek a jen slabší hra defenzivy a velký počet obdržených branek ji připravily o urvání nějakých bodů (skóre 22:29). Do čtvrtfinále tak šly Jihlavačky na Studénku. Na nás vyšel Vracov, který nezvládl vyrovnaný zápas se Svinovem.
+
+V mých očích bylo před turnajem jedinou postupovou cestou našeho týmu porázit Studénku, skončit ve skupině na druhém místě a ve čtvrtfinále se utkat s Jihlavou, se kterou jsme schopni hrát vyrovnaně a před dvěma týdny jsme ji porazili. Tuhle možnost ale Studénka razantně odmítla. S Vracovem se nám ještě nikdy nepodařilo zahrát vyrovnaně, ze zápasu jsme si vždy odnesli výrazný příděl. Vypadalo to tedy na to, že pofrčíme domů celkem rychle se třemi nakládačkami v kabeli. Sešlo se však několik okolností, které nám nakonec umožnily uhrát neuvěřitelný výsledek. Vracov nedojel úplně kompletní a před naším vzájemným zápasem se navíc zranila Bětka Fridrichová. Holky jsou však zvyklé hrát několik postů a nemělo se jednat o vážný problém. Problém to však, jak se ukázalo, byl. Naše obrana s brankařkou zahrála jeden ze svých nejlepších zápasů a Vracovačky najednou neměly co hrát a začaly produkovat na své poměry značné množství jednoduchých chyb a ztrát míče. Náš útok se však v tomto směru nechtěl nechat zahanbit a balony mnohdy pracně vybojované obranou odevzdával soupeřkám jako na běžícím pásu. Výsledkem tak byl téměř nekoukatelný zápas pouze pro silné povahy, ale hlavně, naše poločasové vedení 4:2. Cože? Tohle nemohl čekat ani ten největší snílek. Ještě větším překvapením však bylo, že jsme za druhou půli dokázali skórovat již jen dvakrát..a ono to stačilo na vítězství! 6:5. Pro Vracov to byl absolutní zápas blbec. Z našeho pohledu se jednalo o fantastický výkon obrany s brankařkou v čele, dvě šťastné střely z dálky a kliku jak od blázince..
+
+Jsou to zvláštní pocity. Radost z toho prostého faktu, že se nám podařil zdánlivě nemožný výsledek. Radost z parádního defenzivního výkonu. Pachuť z ofenzivního výkonu. Celkový herní projev nebyl dobrý. Nějak mi to pořád nedochází. Je mi líto Vracova, kterému jsme tak vzali možnost předvést se v dalším kole doma (semifinále se hraje u nich). Ale je to sport, nic není jasné předem, a to je dobře. Říkal jsem si, že by bylo z výchovného důvodu lepší dostat pořádnou nakládačku, protože takový je skutečný poměr rozložení sil. Snad si to však holky uvědomují a nebudou lítat hlavou v oblacích z toho prostého faktu, že porazily takový tým. Byla to haluz a super zápas obrany a golmanky. Tečka. Severomoravanky nám ukázaly jak na tom skutečně jsme.. Je potřeba makat, a hodně.
+
+V semifinále máme Starou Ves, opět dáváme jen chudičké 2 branky. Jasná prohra, další lekce. Obrana se však zvedá, postupně přivykla odlišnému stylu hry než na který byla dosud zvyklá a v průbehu turnaje je lepší a lepší. Čeká nás zápas o 3. místo a v něm Studénka. Holky ze Studénky dorazily jenom v 7 lidech, hrají celý den bez střídání a jsou už vyfluslé. Do branky staví nejmenší hráčku týmu a už se vidí na cestě domů. Postup mají v kapse, ten jim zajistila čtvrtfinálová výhra 16:11 nad Jihlavou. Jen dohrát. I tak v první půli v pohodě vedou. Ztrácíme míče stupidními chybami, hrajeme špatně. Ve druhé půli naše holky zjišťují, že stačí hodit míč do horní poloviny branky, kam malá brankářka nedosáhne. Párkrát to udělají, unavený soupeř už není schopen odpovídat a utkání tak končí remízou. Aby se rozhodlo o konečném pořadí, musí se házet šestky. Studénka trefuje tyč, druhou střelu chytá dobrým zákrokem Jana. Nám tak stačí dvakrát netrefit brankařku. Terce a Stele se to daří. Holky si tak můžou zaskákat ve vítězném kolečku. Třetí místo. Cože? Třetí místo a postup dál. To nám nikdo nebude věřit.
+
+Na jednu stranu super výsledek, na druhou je potřeba si uvědomit, jak se zrodil. Porazili jsme o gól oslabený Vracov, u nějž jsem tak slabý výkon ještě nikdy neviděl. Remizovali jsme s unavenou a nekompletní Studénkou. Když holky ze Studénky ještě mohly, nasypaly nám ráno na přivítanou 14:6. Takže tak.
+
+Obrana s brankářkou je dobrá. Zlepšuje se, je vidět, kdo na sobě chce pracovat a kdo na sobě skutečně pracuje. Podařilo se omezit dříve tak časté jednoduché chyby. Zadek si svoje uhraje. A bude se dál lepšit. Tam problém nemáme. Ale ten útok.. Tak tam teda problém fakt máme.. ;-) Každopádně, inspiraci teď mají holky kvalitní. Snad si z tohoto turnaje co nejvíc odnesou..a nebude to jen hlava v oblacích z neuvěřitelného výsledku.
+
+### Sestava
+
+Štěpánková J. - Pruchová P., Slachová K., Maděrová L., Krystková K. - Cabejšková T. (18 branek), Houserová S. (6 branek), Haislerová H.  (1 branka), Dlouhá T., Sehnalová M. (3 branky)
+
+{{<image file="/images/komentare/2015-02-02_dorky.jpg" title="Nahoře zleva: Sehnalová M., Dlouhá T., Cabejšková T., Maděrová L., Štěpánková J., Houserová S., Haislerová H., Krystková K.; dole Slachová K., Pruchová P.">}}
+

@@ -17,9 +17,10 @@
                     <div class="columns match-comment-list-item">
                         <div class="column is-2 column-highlight-mobile">
                             <div class="calendar-icon">
-                                <span class="day">{{ dateFormat "2" .Params.gamedate }}</span>
-                                <span class="month">{{ index .Site.Data.system.date.month (dateFormat "1" .Params.gamedate) }}</span>
-                                <span class="year">{{ dateFormat "2006" .Params.gamedate }}</span>
+                                {{- $date := index .Params "gamedate" | default .Params.date -}}
+                                <span class="day">{{ dateFormat "2" $date }}</span>
+                                <span class="month">{{ index .Site.Data.system.date.month (dateFormat "1" $date) }}</span>
+                                <span class="year">{{ dateFormat "2006" $date }}</span>
                             </div>
                         </div>
                         <div class="column is-2 has-text-centered column-highlight-mobile">

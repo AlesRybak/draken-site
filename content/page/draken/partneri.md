@@ -1,11 +1,12 @@
 ---
 title: 'Partneři'
 date: 2016-09-17
-path: '/draken'
+url: '/draken/partneri'
 menu:
   main:
     parent: draken
-    pre: '<img src="/images/page-icons/partneri.png" alt="partneri"/>'
 ---
+
+# Naši partneři
 
 {{< logo-cards file="gold" size="4" >}}

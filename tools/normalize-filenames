@@ -1,0 +1,41 @@
+#!/bin/bash
+
+
+function normalize_file {
+	DN=$(dirname "$1")
+	BN=$(basename "$1")
+	FN=${BN}
+
+    FN=$(echo ${FN} | iconv -f utf8 -t ascii//TRANSLIT//IGNORE)
+    FN=$(echo ${FN} | sed "s/[\`\"??]/'/g")
+    FN=$(echo ${FN} | sed "s/&/ and /g")
+    FN=$(echo ${FN} | sed "s/[\\!|]//g")
+    FN=$(echo ${FN} | sed "s/[ ]/-/g")
+    FN=$(echo ${FN} | sed "s/[^A-Za-z0-9._,$'\\{\\}$\\(\\)\\[\\]-]/_/g")
+    FN=$(echo ${FN} | sed -E "s/[-]+/-/g")
+    FN=$(echo ${FN} | sed -E "s/[_]+/_/g")
+    FN=$(echo ${FN} | tr '[:upper:]' '[:lower:]')
+
+	if [ "$BN" != "$FN" ]; then
+		echo "$DN/( $BN --> $FN )"
+		mv "$DN/$BN" "$DN/$FN"
+	fi
+}
+
+if [ $# -ne 1 ]; then
+	echo "This script will recusively go through the folder and remove accents and special characters from file names."
+	echo "Usage: $0 <target-folder>"
+fi
+
+
+IFS=$'\n'
+for DEPTH in {1..10}; do
+    for F in $(find $1 -type d -depth $DEPTH); do
+        normalize_file "$F"
+    done
+done
+
+for F in $(find $1 -type f); do
+	normalize_file "$F"
+done
+

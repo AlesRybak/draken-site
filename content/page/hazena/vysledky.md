@@ -1,10 +1,10 @@
 ---
 title: 'Výsledky'
 date: 2016-09-17
+url: '/hazena/vysledky'
 menu:
   main:
     parent: hazena
-    pre: '<img src="/images/page-icons/vysledky.png" alt="vysledky"/>'
 ---
 
 # Ligové soutěže

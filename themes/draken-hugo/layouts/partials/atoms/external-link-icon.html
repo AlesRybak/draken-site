@@ -1,0 +1,14 @@
+{{ $link := .Params.link | default "http://www.draken.cz" }}
+{{ $link := replaceRE "^https?://([^/]+).*" "$1" $link }}
+{{ $link := replace $link "." "_"  }}
+{{ $link := replace $link "www_" ""  }}
+{{ $link := replace $link "drakensky_" ""  }}
+{{ $link := replace $link "_idnes" ""  }}
+{{ $link := replace $link "_cz" ""  }}
+{{ $link := replace $link "_com" ""  }}
+
+{{ if (ne $link "draken") }}
+<div class="link-icon">
+    <img src="/images/link-icons/{{ $link }}.png" alt="{{ $link }}" />
+</div>
+{{ end }}

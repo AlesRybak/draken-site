@@ -26,9 +26,9 @@ FORMAT='
 ###############################################################################
 
 function extract-info () {
-	SOURCE=$1
-	TARGET=$2
-	URL=$3
+	SOURCE="$1"
+	TARGET="$2"
+	URL="$3"
 
 	echo $URL
 
@@ -41,21 +41,21 @@ function extract-info () {
 
 ###############################################################################
 
-SOURCE_DIR=$1
-TARGET_DIR=$2
+SOURCE_DIR="$1"
+TARGET_DIR="$2"
 URL_PREFIX="/photos"
 WORK_DIR=$(pwd)
 
-cd $SOURCE_DIR
+cd "$SOURCE_DIR"
 FILE_LIST=$(find . -iname "*.jpg" -o -iname "*.jpeg" | sort)
-cd $WORK_DIR
+cd "$WORK_DIR"
 
 while read FILE; do
 	FILE="${FILE:2}"
 	SOURCE="$SOURCE_DIR/$FILE"
 	TARGET="$TARGET_DIR/$FILE.json"
-	TARGET_UP=$(dirname ${TARGET})
-	GAL=$(basename ${TARGET_UP})
+	TARGET_UP=$(dirname "${TARGET}")
+	GAL=$(basename "${TARGET_UP}")
 	URL="$URL_PREFIX/$GAL/$FILE"
 	if [ ! -d "$TARGET_UP" ]; then mkdir -p "$TARGET_UP"; fi
 	if [ ! -f "$TARGET" ]; then extract-info "$SOURCE" "$TARGET" "$URL"; fi

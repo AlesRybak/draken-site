@@ -3,7 +3,7 @@
 {{- $filename := replaceRE "^.*\\/([-_A-Za-z0-9.]+)\\/" "${1}.png" $url -}}
 
 {{- if (where (readDir $directory) "Name" $filename) -}}
-    <img src="/images/page-icons/{{$filename}}" alt="{{.}}">
+    <img src="/images/page-icons/{{$filename}}" alt="{{.}}" class="pageicon">
 {{- else -}}
-    <img src="/images/page-icons/unknown.png" alt="{{.}}"/>
+    <img src="/images/page-icons/unknown.png" alt="{{.}}" class="pageicon"/>
 {{- end -}}

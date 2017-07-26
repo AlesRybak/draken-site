@@ -1,42 +1,42 @@
 [
   {
     "title": "Muži",
-    "planUrl": "http://svaznarodnihazene.cz/164-1-liga-muzu-201617-rozpis-utkani-podzim-2016",
-    "resultsUrl": "http://svaznarodnihazene.cz/164-1-liga-muzu-201617-rozpis-utkani-podzim-2016"
+    "planUrl": "http://www.nhjmp.hys.cz/index.php?lvla=4&lvlb=2&lvlc=1",
+    "resultsUrl": "http://www.nhjmp.hys.cz/index.php?lvla=4&lvlb=1&lvlc=1"
   },
   {
     "title": "Ženy",
-    "planUrl": "http://svaznarodnihazene.cz/164-1-liga-muzu-201617-rozpis-utkani-podzim-2016",
-    "resultsUrl": "http://svaznarodnihazene.cz/180-1-liga-zen-201617-rozpis-utkani-podzim-2016"
+    "planUrl": "http://www.nhjmp.hys.cz/index.php?lvla=4&lvlb=2&lvlc=2",
+    "resultsUrl": "http://www.nhjmp.hys.cz/index.php?lvla=4&lvlb=1&lvlc=2"
   },
   {
     "title": "Dorostenci",
-    "planUrl": "http://svaznarodnihazene.cz/164-1-liga-muzu-201617-rozpis-utkani-podzim-2016",
-    "resultsUrl": "http://svaznarodnihazene.cz/164-1-liga-muzu-201617-rozpis-utkani-podzim-2016"
+    "planUrl": "http://www.nhjmp.hys.cz/index.php?lvla=4&lvlb=2&lvlc=3",
+    "resultsUrl": "http://www.nhjmp.hys.cz/index.php?lvla=4&lvlb=1&lvlc=3"
   },
   {
     "title": "Dorostenky",
-    "planUrl": "http://svaznarodnihazene.cz/164-1-liga-muzu-201617-rozpis-utkani-podzim-2016",
-    "resultsUrl": "http://svaznarodnihazene.cz/180-1-liga-zen-201617-rozpis-utkani-podzim-2016"
+    "planUrl": "http://www.nhjmp.hys.cz/index.php?lvla=4&lvlb=2&lvlc=4",
+    "resultsUrl": "http://www.nhjmp.hys.cz/index.php?lvla=4&lvlb=1&lvlc=4"
   },
   {
     "title": "Starší žáci",
-    "planUrl": "http://svaznarodnihazene.cz/164-1-liga-muzu-201617-rozpis-utkani-podzim-2016",
-    "resultsUrl": "http://svaznarodnihazene.cz/164-1-liga-muzu-201617-rozpis-utkani-podzim-2016"
+    "planUrl": "http://www.nhjmp.hys.cz/index.php?lvla=4&lvlb=2&lvlc=5",
+    "resultsUrl": "http://www.nhjmp.hys.cz/index.php?lvla=4&lvlb=1&lvlc=5"
   },
   {
     "title": "Starší žákyně",
-    "planUrl": "http://svaznarodnihazene.cz/164-1-liga-muzu-201617-rozpis-utkani-podzim-2016",
-    "resultsUrl": "http://svaznarodnihazene.cz/180-1-liga-zen-201617-rozpis-utkani-podzim-2016"
+    "planUrl": "http://www.nhjmp.hys.cz/index.php?lvla=4&lvlb=2&lvlc=6",
+    "resultsUrl": "http://www.nhjmp.hys.cz/index.php?lvla=4&lvlb=1&lvlc=6"
   },
   {
     "title": "Mladší žáci",
-    "planUrl": "http://svaznarodnihazene.cz/164-1-liga-muzu-201617-rozpis-utkani-podzim-2016",
-    "resultsUrl": "http://svaznarodnihazene.cz/164-1-liga-muzu-201617-rozpis-utkani-podzim-2016"
+    "planUrl": "http://www.nhjmp.hys.cz/index.php?lvla=4&lvlb=2&lvlc=7",
+    "resultsUrl": "http://www.nhjmp.hys.cz/index.php?lvla=4&lvlb=1&lvlc=7"
   },
   {
     "title": "Mladší žákyně",
-    "planUrl": "http://svaznarodnihazene.cz/164-1-liga-muzu-201617-rozpis-utkani-podzim-2016",
-    "resultsUrl": "http://svaznarodnihazene.cz/180-1-liga-zen-201617-rozpis-utkani-podzim-2016"
+    "planUrl": "http://www.nhjmp.hys.cz/index.php?lvla=4&lvlb=2&lvlc=8",
+    "resultsUrl": "http://www.nhjmp.hys.cz/index.php?lvla=4&lvlb=1&lvlc=8"
   }
 ]
