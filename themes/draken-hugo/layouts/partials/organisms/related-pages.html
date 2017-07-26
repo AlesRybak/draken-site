@@ -3,7 +3,7 @@
 {{ $.Scratch.Set "curMatch" 0 }}
 
 {{ range $thatPage := $.Site.Pages }}
-	{{ if ne $thatPage $thisPage }}
+	{{ if ne $thatPage.Title $thisPage.Title }}
 		{{ $match := len (intersect $.Params.tags $thatPage.Params.tags) }}
 		{{ if gt $match 0 }}
 			{{ if gt $match ( $.Scratch.Get "maxMatch" ) }}

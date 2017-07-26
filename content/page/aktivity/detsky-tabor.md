@@ -1,9 +1,10 @@
 ---
 title: 'Dětský tábor'
 date: 2016-09-17
-url: '/aktivity/detsky-tabor'
+url: '/detsky-tabor'
 menu:
   main:
+    identifier: 'detsky-tabor'
     parent: aktivity
 ---
 

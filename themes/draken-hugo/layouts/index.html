@@ -14,7 +14,10 @@
         <div class="container">
             <h3 class="title is-4">Novinky</h3>
             <div class="columns is-multiline">
-                {{ range first 8 .Data.Pages }}
+                {{- $pages := where .Data.Pages ".Type" "!=" "page" -}}
+                {{- $pages := where $pages ".Type" "!=" "gallery-list" -}}
+                {{- $pages := where $pages ".Type" "!=" "section-root" -}}
+                {{ range first 8 $pages }}
                     {{ partial "molecules/page-link-full" . }}
                 {{ end }}
             </div>
