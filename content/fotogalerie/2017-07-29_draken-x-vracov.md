@@ -1,7 +1,7 @@
 ---
 title: Draken x Vracov
 thumbnail: /images/content/2004-04_draken-vracov.jpg
-date: 04/29/2004
+date: 2004-04-30
 type: external
 link: 'http://mry.cz/photo/draken/vracov04/index.html'
 author: mry

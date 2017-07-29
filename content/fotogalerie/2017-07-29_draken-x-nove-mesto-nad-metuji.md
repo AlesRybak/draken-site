@@ -1,7 +1,7 @@
 ---
 title: Draken x Nové Město nad Metují
 thumbnail: /images/content/2006-05_draken-nmnm.jpg
-date: 05/26/2006 2:39 PM
+date: 2006-05-20
 type: external
 link: 'http://mry.cz/photo/draken/nmesto06/index.html'
 author: mry
