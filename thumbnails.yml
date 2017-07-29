@@ -33,6 +33,12 @@ sources:
         height: 1600
         quality: 85
         fill: false
+      - suffix: ""
+        nameSuffix: "_h"
+        width: 320
+        height: 160
+        quality: 80
+        fill: true
   - srcDir: "static/images/avatars"
     outDir: "static/imgs/avatars"
     sizes:

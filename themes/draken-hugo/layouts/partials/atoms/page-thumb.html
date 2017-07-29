@@ -19,7 +19,7 @@
 
 		{{-  range first 1 (readDir (delimit (slice "static" $path) "/")) -}}
 			{{- $thumb := replace .Name "." (delimit (slice "_" $.thumbType ".") "") -}}
-			{{- replace $path "photos" "/thumbnails" -}}/{{- $thumb -}}
+			{{- replace $path "photos" "/imgs/thumbs" -}}/{{- $thumb -}}
 		{{- end -}}
 	{{- end -}}
 {{- else if (eq .page.Type "video") -}}
@@ -27,6 +27,7 @@
 {{- else if isset .page.Params "thumbnail" -}}
 	{{- if hasPrefix .page.Params.thumbnail "/" -}}
 		{{- $thumb := replace .page.Params.thumbnail "." "_TYPE." -}}
+		{{- $thumb := replace $thumb "images" "imgs" -}}
 		{{- replace $thumb "TYPE" .thumbType -}}
 	{{- end -}}
 {{- else if (eq .page.Type "fotogalerie") -}}
