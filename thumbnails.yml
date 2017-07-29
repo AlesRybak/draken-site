@@ -1,7 +1,7 @@
 ---
 sources:
   - srcDir: "static/photos"
-    outDir: "static/thumbnails"
+    outDir: "static/imgs/thumbs"
     sizes:
       - suffix: ""
         nameSuffix: "_m"
@@ -15,8 +15,8 @@ sources:
         height: 160
         quality: 80
         fill: true
-  - srcDir: "static/upload/pages"
-    outDir: "static/images/pages"
+  - srcDir: "static/images/pages"
+    outDir: "static/imgs/pages"
     sizes:
       - suffix: ""
         nameSuffix: "_h"
@@ -24,8 +24,8 @@ sources:
         height: 160
         quality: 80
         fill: true
-  - srcDir: "static/upload/content"
-    outDir: "static/images/content"
+  - srcDir: "static/images/content"
+    outDir: "static/imgs/content"
     sizes:
       - suffix: ""
         nameSuffix: ""
@@ -33,8 +33,8 @@ sources:
         height: 1600
         quality: 85
         fill: false
-  - srcDir: "static/upload/avatars"
-    outDir: "static/images/avatars"
+  - srcDir: "static/images/avatars"
+    outDir: "static/imgs/avatars"
     sizes:
       - suffix: ""
         nameSuffix: "_a"
