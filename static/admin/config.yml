@@ -19,4 +19,4 @@ collections:
       - {label: "Type (type)", name: "type", widget: "string", default: "external"}
       - {label: "Link (link)", name: "link", widget: "string"}
       - {label: "Autor (author)", name: "author", widget: "string"}
-      - {label: "Štítky (tags)", name: "tags", widget: "list", default: "hazena, draken"}
+      - {label: "Štítky (tags)", name: "tags", widget: "list", default: [hazena, draken]}
