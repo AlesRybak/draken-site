@@ -30,6 +30,17 @@
 		{{- $thumb := replace $thumb "images" "imgs" -}}
 		{{- replace $thumb "TYPE" .thumbType -}}
 	{{- end -}}
+{{- else if (eq "" "") -}}
+	{{- $thumbsDir := "/static/imgs/pages/" -}}
+	{{- $thumbsList := readDir $thumbsDir -}}
+	{{- $pageThumb := delimit (slice .page.File.BaseFileName "_" $.thumbType ".jpg") "" -}}
+	{{- range $thumbsList -}}
+		{{- if hasPrefix .Name $pageThumb -}}
+			/imgs/pages/{{ .Name }}
+		{{- end -}}
+	{{- end -}}
+{{- else if (eq .page.Type "external") -}}
+	/images/pages/galerie_{{ .thumbType }}.png
 {{- else if (eq .page.Type "fotogalerie") -}}
 	/images/pages/galerie_{{ .thumbType }}.png
 {{- else if (eq .page.Type "komentare") -}}
@@ -39,3 +50,4 @@
 {{- else -}}
 	/images/pages/unknown_{{ .thumbType }}.png
 {{- end -}}
+

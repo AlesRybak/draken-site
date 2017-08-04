@@ -1,0 +1,27 @@
+{{- $author := index .Site.Data.authors (.Params.Author | default "draken") -}}
+{{- $avatarImg := replace $author.avatar "upload" "images" -}}
+{{- $avatarImg := replace $avatarImg "." "_a." -}}
+
+
+
+<div class="column is-3-desktop is-4-tablet is-12-mobile page-link">
+    <a href="{{ .Permalink }}">
+        <div class="card">
+            <div class="image-overlay">
+                {{ partial "atoms/external-link-icon" . }}
+            </div>
+            <div class="card-image">
+                <figure class="image is-2by1">
+                    <img src='{{ partial "atoms/page-thumb" (dict "page" . "thumbType" "h") }}' alt="{{ .Title }}">
+                </figure>
+            </div>
+            <div class="card-content">
+                <h4 class="title is-6 is-bold">{{ .Title }}</h4>
+                <div class="has-text-right">
+                    {{ dateFormat "2. 1. 2006" .Date }}<br/>
+                    {{ $author.name }}
+                </div>
+            </div>
+        </div>
+    </a>
+</div>

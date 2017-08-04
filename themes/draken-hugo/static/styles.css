@@ -4275,6 +4275,9 @@ pre {
 .image {
   margin: 0 auto; }
 
+.is-6 {
+  font-weight: 700; }
+
 img.avatar {
   width: 64px;
   height: 64px;

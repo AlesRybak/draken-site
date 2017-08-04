@@ -16,7 +16,7 @@
             {{- $pages := where .Site.Pages ".Type" "in" $types -}}
             {{ range $pages }}
                 {{ if in .Params.tags ($.Param "tag-list") }}
-                    {{ partial "molecules/page-link-full" . }}
+                    {{ partial "molecules/page-link-gallery" . }}
                 {{ end }}
             {{ end }}
         </div>

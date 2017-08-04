@@ -16,7 +16,13 @@ collections:
       - {label: "Obrázek (featured image)", name: "thumbnail", widget: "image"}
       - {label: "Popis (body)", name: "body", widget: "markdown"}
       - {label: "Datum (publish date)", name: "date", widget: "datetime"}
-      - {label: "Type (type)", name: "type", widget: "string", default: "external"}
+      - label: "Type (type)"
+        name: "type"
+        widget: "select"
+        default: "external"
+        options:
+          - external
+          - fotogalerie
       - {label: "Link (link)", name: "link", widget: "string"}
       - {label: "Autor (author)", name: "author", widget: "string"}
       - {label: "Štítky (tags)", name: "tags", widget: "list", default: [hazena, draken]}
