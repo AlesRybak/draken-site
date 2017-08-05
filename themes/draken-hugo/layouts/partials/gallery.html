@@ -3,7 +3,7 @@
         {{ range .galData }}
             {{- $photo := .url -}}
             {{- $thumb := replace $photo ".jpg" "_m.jpg" -}}
-            {{- $thumb := replace $thumb "photos" "thumbnails" -}}
+            {{- $thumb := replace $thumb "photos" "imgs/thumbs" -}}
 
             <div class="column is-2-desktop is-3-tablet is-4-mobile">
                 <a href="{{ $photo }}">
