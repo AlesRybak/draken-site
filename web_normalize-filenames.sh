@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+STATIC_DIR="static"
+PHOTOS_DIR="$STATIC_DIR/photos"
+DATA_DIR="data/photos"
+WORK_DIR=$(pwd)
+
+echo
+echo "--- Normalize filenames"
+tools/normalize-filenames "$STATIC_DIR"
+tools/normalize-filenames "content"
