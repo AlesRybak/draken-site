@@ -1,11 +1,13 @@
 ---
 new_page_extension: md
-auto_deploy: false
+auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
   fotogalerie:
     default_front_matter_template: fotogalerie
+  aktuality:
+    default_front_matter_template: aktuality
 upload_dir: static/images/content
 public_path: "/images/content"
 front_matter_path: ''

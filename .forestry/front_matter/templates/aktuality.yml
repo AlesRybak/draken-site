@@ -17,5 +17,3 @@ fields:
 - type: datetime
   name: date
   label: Date
-pages:
-- aktuality/gsdfgsdf.md
