@@ -1,9 +1,14 @@
 ---
-title: Čechy versus Morava
+title: "Čechy versus Morava"
 group: muzi
-contest: "cechy-morava"
-date: 2016-05-07
-tags: [hazena, draken]
+contest: 1-liga
+date: 2016-05-07 00:00:00 +0000
+tags:
+- hazena
+- draken
 type: external
 link: http
+author: ''
+thumbnail: "/images/content/2006-09_draken-stara-ves.jpg"
+
 ---
