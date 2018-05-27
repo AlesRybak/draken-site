@@ -5,11 +5,6 @@ date: 2006-05-20
 type: external
 link: 'http://mry.cz/photo/draken/nmesto06/index.html'
 author: mry
-tags:
-  - hazena
-  - draken
-  - 2-liga
-  - muzi
-  - nmnm
+tags: [hazena, draken, 2-liga, muzi, nmnm]
 ---
 Draken x  Nové Město nad Metují

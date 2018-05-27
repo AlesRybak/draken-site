@@ -5,11 +5,9 @@ date: 2004-04-30
 type: external
 link: 'http://mry.cz/photo/draken/vracov04/index.html'
 author: mry
-tags:
-  - hazena
-  - draken
-  - vracov
-  - jmop
-  - muzi
+tags: [hazena]
+group: muzi
+contest: jmop
+teams: [draken, vracov]
 ---
 Zápas Draken vs. Vracov na domácí půdě

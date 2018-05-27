@@ -5,5 +5,7 @@ contest: ""
 date: 2014-09-15
 tags: [hazena, draken]
 type: external
-link: http
+link: http://mry.cz/photo/draken/vracov2014/index.html
+author: mry
+thumbnail: "/images/content/2014-09-15_draken-x-vracov.jpg"
 ---

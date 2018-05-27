@@ -1,9 +1,11 @@
 ---
 title: Draken A x Rokytnice
-group: muzi
-contest: ""
 date: 2011-04-15
-tags: [hazena, draken]
+tags: [hazena, muzi]
+group: muzi
+teams: [draken, rokytnice]
 type: external
-link: http
+link: http://mry.cz/photo/draken-rokyt/index.html
+author: mry
+thumbnail: "/images/content/2011-04-15_draken-a-x-rokytnice.jpg"
 ---

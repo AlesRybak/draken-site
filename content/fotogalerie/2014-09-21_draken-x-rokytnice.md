@@ -5,5 +5,7 @@ contest: "1-liga"
 date: 2014-09-21
 tags: [hazena, draken]
 type: external
-link: http
+link: http://mry.cz/photo/draken/rokyt2014/text.html
+author: mry
+thumbnail: "/images/content/2014-09-21_draken-x-rokytnice.jpg"
 ---

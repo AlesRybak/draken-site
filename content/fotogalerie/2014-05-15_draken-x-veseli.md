@@ -5,5 +5,7 @@ contest: "2-liga-b"
 date: 2014-05-15
 tags: [hazena, draken]
 type: external
-link: http
+link: http://mry.cz/photo/draken/veseli2014/veseli.html
+author: mry
+thumbnail: "/images/content/2014-05-15_draken-x-veseli.jpg"
 ---

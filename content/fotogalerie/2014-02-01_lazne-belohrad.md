@@ -7,4 +7,4 @@ type: external
 link: http
 ---
 
-Několik fotek z přípravného turnaje mužů v Lázních Bělohrad./nAutor: Bota
+Několik fotek z přípravného turnaje mužů v Lázních Bělohrad.

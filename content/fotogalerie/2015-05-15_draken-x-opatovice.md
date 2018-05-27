@@ -5,5 +5,7 @@ contest: ""
 date: 2015-05-15
 tags: [hazena, draken]
 type: external
-link: http
+link: http://mry.cz/photo/draken/opatovice2015/index.html
+author: mry
+thumbnail: "/images/content/2015-05-15_draken-x-opatovice.jpg"
 ---

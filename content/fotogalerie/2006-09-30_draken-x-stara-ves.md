@@ -5,11 +5,6 @@ date: 2006-09-30
 type: external
 link: 'http://mry.cz/photo/draken/stves06/index.html'
 author: mry
-tags:
-  - hazena
-  - draken
-  - muzi
-  - stara-ves
-  - 2-liga
+tags: [hazena, draken, muzi, stara-ves, 2-liga]
 ---
 Draken x Stará Ves - 13:22

@@ -7,10 +7,6 @@ group: muzi
 title: Draken B x Draken C
 type: external
 link: 'http://mry.cz/photo/draken/DrakBxC/index.html'
-tags:
-  - hazena
-  - draken
-  - muzi
-  - jmop
+tags: [hazena, draken, muzi, jmop]
 ---
  

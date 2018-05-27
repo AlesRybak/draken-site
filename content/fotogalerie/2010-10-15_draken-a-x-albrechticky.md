@@ -1,9 +1,10 @@
 ---
 title: Draken A x Albrechtičky
 group: muzi
-contest: ""
 date: 2010-10-15
-tags: [hazena, draken]
+tags: [hazena, draken, muzi, albrechticky]
 type: external
-link: http
+link: http://mry.cz/photo/draken-albrecht/index.html
+author: mry
+thumbnail: "/images/content/2010-10-15_draken-a-x-albrechticky.jpg"
 ---

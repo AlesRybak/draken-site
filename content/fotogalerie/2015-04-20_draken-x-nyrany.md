@@ -5,5 +5,7 @@ contest: "1-liga"
 date: 2015-04-20
 tags: [hazena, draken]
 type: external
-link: http
+link: http://mry.cz/photo/draken/Nyrany2015/index.html
+author: mry
+thumbnail: "/images/content/2015-04-20_draken-x-nyrany.jpg"
 ---

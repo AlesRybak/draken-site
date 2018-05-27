@@ -5,5 +5,7 @@ contest: ""
 date: 2011-09-15
 tags: [hazena, draken]
 type: external
-link: http
+link: http://mry.cz/photo/draken/MS2011/muzi/index.html
+author: mry
+thumbnail: "/images/content/2011-09-15_draken-x-morenda.jpg"
 ---

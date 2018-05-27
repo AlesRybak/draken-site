@@ -5,5 +5,7 @@ contest: ""
 date: 2012-09-15
 tags: [hazena, draken]
 type: external
-link: http
+link: http://mry.cz/photo/draken/ji2012/index.html
+author: mry
+thumbnail: "/images/content/2012-09-15_draken-x-jihlava.jpg"
 ---

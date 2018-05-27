@@ -7,11 +7,6 @@ group: muzi
 title: Draken B x Jihlava A
 type: external
 link: 'http://mry.cz/photo/draken08/index.html'
-tags:
-  - hazena
-  - draken
-  - jihlava
-  - muzi
-  - jmop
+tags: [hazena, draken, jihlava, muzi, jmop]
 ---
  

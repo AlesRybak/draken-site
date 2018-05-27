@@ -7,4 +7,4 @@ type: external
 link: http
 ---
 
-Jarní část 2. ligy mužů jsme zahájili vítěznou předehrávkou na domácím hřišti. 
+Jarní část 2. ligy mužů jsme zahájili vítěznou předehrávkou na domácím hřišti.
