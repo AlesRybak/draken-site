@@ -1,7 +1,6 @@
 +++
 author = "draken"
-date = "2018-05-27T15:51:34+00:00"
-draft = true
+date = "2018-05-27T15:51:34Z"
 title = "gsdfgsdf"
 
 +++
