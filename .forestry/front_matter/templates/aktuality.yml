@@ -6,3 +6,11 @@ fields:
   name: title
   label: Title
   description: Název
+- type: select
+  name: author
+  config:
+    source:
+      type: datafiles
+      file: authors-json
+  label: Author
+  default: draken
