@@ -17,3 +17,6 @@ fields:
 - type: datetime
   name: date
   label: Date
+- type: file
+  name: thumbnail
+  label: Thumbnail
