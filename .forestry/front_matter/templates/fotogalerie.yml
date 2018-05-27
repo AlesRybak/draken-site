@@ -12,11 +12,13 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: contest
+- type: select
+  name: contest
+  config:
+    source:
+      type: datafiles
+      file: contests-json
   label: Contest
-  type: text
-  hidden: false
-  default: ''
 - name: date
   label: Date
   type: datetime
