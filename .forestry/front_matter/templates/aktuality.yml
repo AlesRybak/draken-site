@@ -14,3 +14,8 @@ fields:
       file: authors-json
   label: Author
   default: draken
+- type: datetime
+  name: date
+  label: Date
+pages:
+- aktuality/gsdfgsdf.md
