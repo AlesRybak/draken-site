@@ -4,7 +4,22 @@ backend:
   branch: develop # Branch to update
 media_folder: "static/images/content"
 public_folder: "/images/content"
+
 collections:
+  - name: "aktuality" # Used in routes, e.g. /admin/collections/blog
+    label: "Aktuality" # Used in the UI
+    folder: "content/aktuality" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    sort: "date:desc" # Default is title:asc
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Název (title)", name: "title", widget: "string"}
+      - {label: "Obrázek (featured image)", name: "thumbnail", widget: "image"}
+      - {label: "Datum (publish date)", name: "date", widget: "datetime"}
+      - {label: "Autor (author)", name: "author", widget: "string"}
+      - {label: "Štítky (tags)", name: "tags", widget: "list", default: [hazena, draken]}
+      - {label: "Popis (body)", name: "body", widget: "markdown"}
+
   - name: "fotogalerie" # Used in routes, e.g. /admin/collections/blog
     label: "Fotogalerie" # Used in the UI
     folder: "content/fotogalerie" # The path to the folder where the documents are stored
