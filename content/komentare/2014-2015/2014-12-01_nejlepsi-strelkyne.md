@@ -1,14 +1,18 @@
 ---
-title: "Přehled nejlepší střelkyň 2. ligy žen sk. B 2014 po podzimní části"
-date: 2014-12-01
-gameDate: 2014-12-01
+title: Přehled nejlepší střelkyň 2. ligy žen sk. B 2014 po podzimní části
+date: 2014-12-01 00:00:00 +0000
+gameDate: 2014-12-01 00:00:00 +0000
 author: draken
-tags: ["hazena", "draken", "zeny", "2-liga"]
-season: "2014-2015"
-group: "zeny"
-contest: "2-liga-b"
----
+tags:
+- hazena
+- draken
+- zeny
+- 2-liga
+season: 2014-2015
+group: zeny
+contest: 2-liga-b
 
+---
 N | Jméno | Oddíl | Vštřelené branky
 ---|---|---|--- 
 1. | Vintrová Lenka | Sport klub Náchod | 98 branek

@@ -1,19 +1,23 @@
 ---
-title: "Draken - Vítkovice 19:17 (11:9)"
-date: 2014-06-01
+title: Draken - Vítkovice 19:17 (11:9)
+date: 2014-06-01 00:00:00 +0000
 author: zd
-tags: ["hazena", "2-liga", "muzi", "vitkovice", "draken"]
-
-season: "2013-2014"
-gameDate: 2014-06-01
-group: "muzi"
-contest: "2-liga-b"
-homeTeam: "Draken Brno"
-guestTeam: "Vítkovice"
+tags:
+- hazena
+- 2-liga
+- muzi
+- vitkovice
+- draken
+season: 2013-2014
+gameDate: 2014-06-01 00:00:00 +0000
+group: muzi
+contest: 2-liga-b
+homeTeam: Draken Brno
+guestTeam: Vítkovice
 homeScore: 19
 guestScore: 17
----
 
+---
 Poslední domácí zápas sezony měl být jeden z nejtěžších. Na Den dětí k nám totiž přijely Vítkovice sestupivší z 1.ligy. Hávířští synci se zase trochu víc zakulatili a střelecky se vůbec nezhoršili. Však taky hned od prvních minut vedli o pár gólů. To jim vydrželo celých 25 minut, než se zažehly naše navlhlý rozbušky. Zdařilou koncovkou jsme tedy zvrátili vedení po půlhodině na naši stranu, a to celkem o dvě branky.
 
 Postupně jsme si tvořili výraznější náskok, Peťan nosil plný nůše gólů, avšak jen dokud coach Skalník nezačal nesmyslně šolichat se sestavou.

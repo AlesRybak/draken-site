@@ -1,12 +1,13 @@
 ---
-title: "MS Brno - Draken (1. 5. 2012)"
-date: 2012-05-01
-tags: [hazena]
+title: MS Brno - Draken (1. 5. 2012)
+date: 2012-05-01 00:00:00 +0000
+tags:
+- hazena
 author: bota
 type: external
 link: http
----
 
+---
 Utkání družstev žen a mužů na hřišti brněnského rivala.
 
 Autor: Bota

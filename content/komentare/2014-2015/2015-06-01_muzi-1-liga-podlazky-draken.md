@@ -1,21 +1,25 @@
 ---
-title: "21. ligové kolo: TJ Sokol Podlázky - Draken Brno 17:15 (9:6)"
-date: 2015-06-01
+title: 21. ligové kolo: TJ Sokol Podlázky - Draken Brno 17:15 (9:6)
+date: 2015-06-01 00:00:00 +0000
 author: slacha
-tags: ["hazena", "muzi", "1-liga", "podlazky", "draken"]
-
-season: "2014-2015"
-gameDate: 2015-06-01
-group: "muzi"
-contest: "1-liga"
-homeTeam: "TJ Sokol Podlázky"
-guestTeam: "Draken Brno"
+tags:
+- hazena
+- muzi
+- 1-liga
+- podlazky
+- draken
+season: 2014-2015
+gameDate: 2015-06-01 00:00:00 +0000
+group: muzi
+contest: 1-liga
+homeTeam: TJ Sokol Podlázky
+guestTeam: Draken Brno
 homeScore: 17
 guestScore: 15
 homeHalfScore: 9
 guestHalfScore: 6
----
 
+---
 Premiérovou prvoligovou sezonu jsme o posledním květnovém víkendu uzavřeli výjezdem do Čech. V sobotu jsme hráli v Podlázkách u Mladé Boleslavi, v neděli pak na půdě několikanásobných mistrů republiky z Plzně. Ani v jednom z těchto zápasů jsme bohužel nedokázali navázat na zlepšené jarní výkony a rozlučka s nejvyšší soutěží se tak příliš nevydařila.
 
 Nepovedl se nám ani jeden ze zápasů. Rozdíl však byl v tom, že zatímco nedělní utkání v Plzni měli domácí od úvodního hvizdu pevně v rukách, byli jasně lepší a otázkou byla spíše výše skóre, v sobotu jsme i přes slabé útočné představení mohli většinu zápasu živit naději na solidní výsledek. Domácím Podlázkám šlo o udržení prvoligové příslušnosti. Také nám chtěli podlázečtí oplatit podzimní prohru, kterou si z Brna odvezli. Na domácím hřišti navíc dokázali místní borci v této sezoně porazit nejeden silný mančaft. Dalo se tedy očekávat, že na nás v zádech s vyhlášeným domácím publikem vlétnou. Žádný velký uragán se však nekonal a na tribunách bylo po většinu zápasu ticho. Těžko říct, jestli jsme diváky uspali slabým výkonem my, či byli unaveni ze dne otevřených dveří ve Škodovce. Možná jsem měl taky jen přehnaná očekávání.. :-) Každopádně je potřeba vyjádřit respekt k tomu, kolik jich na poslední tým tabulky dorazilo. Stejně tak patří všechna čest krásnému areálu a veškerému zázemí. Takové prostředí je pro nejvyšší soutěž velice důstojné a hraje se zde moc pěkně.

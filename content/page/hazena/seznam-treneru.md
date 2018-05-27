@@ -1,12 +1,12 @@
 ---
-title: 'Seznam trenérů'
-date: 2016-09-17
-url: '/hazena/seznam-treneru'
+title: Seznam trenérů
+date: 2016-09-17 00:00:00 +0000
+url: "/hazena/seznam-treneru"
 menu:
   main:
     parent: hazena
----
 
+---
 # Kontakt na trenéry jednotlivých družstev
 
 Kategorie                   | Trenér            | Telefon       | E-mail

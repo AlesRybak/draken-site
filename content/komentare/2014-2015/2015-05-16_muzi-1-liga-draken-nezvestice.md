@@ -1,21 +1,25 @@
 ---
-title: "18. ligové kolo: Draken Brno -  TJ Sokol Nezvěstice 15:21 (7:14)"
-date: 2015-05-16
+title: 18. ligové kolo: Draken Brno -  TJ Sokol Nezvěstice 15:21 (7:14)
+date: 2015-05-16 00:00:00 +0000
 author: slacha
-tags: ["hazena", "muzi", "1-liga", "draken", "nezvestice"]
-
-season: "2014-2015"
-gameDate: 2015-05-16
-group: "muzi"
-contest: "1-liga"
-homeTeam: "Draken Brno"
-guestTeam: "TJ Sokol Nezvěstice"
+tags:
+- hazena
+- muzi
+- 1-liga
+- draken
+- nezvestice
+season: 2014-2015
+gameDate: 2015-05-16 00:00:00 +0000
+group: muzi
+contest: 1-liga
+homeTeam: Draken Brno
+guestTeam: TJ Sokol Nezvěstice
 homeScore: 15
 guestScore: 21
 homeHalfScore: 7
 guestHalfScore: 14
----
 
+---
 O víkendu 16. - 17. května 2015 jsme sehráli na nějakou dobu poslední domácí prvoligové zápasy. Soupěřem nám byly západočeské týmy z čela tabulky. V sobotu dorazily první Nezvěstice, v neděli se na Kraví hoře představil třetí Tymákov.
 
 V několika aspektech si byly oba zápasy podobné. Každému ze soupeřů chyběla jedna klíčová osobnost (nezvěstický K. Koc, tymákovský V. Majer). V obou zápasech jsme vstřelili 15 branek. V obou zápasech se nám podařilo zvítězit v jednom z poločasů v poměru 8:7.

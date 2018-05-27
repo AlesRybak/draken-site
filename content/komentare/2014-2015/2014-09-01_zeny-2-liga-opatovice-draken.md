@@ -1,21 +1,26 @@
 ---
-title: "1. kolo 2. ligy žen sk. B: TJ Sokol Opatovice nad Labem - Draken Brno 15:15 (7:8)"
-date: 2014-09-01
+title: '1. kolo 2. ligy žen sk. B: TJ Sokol Opatovice nad Labem - Draken Brno 15:15
+  (7:8)'
+date: 2014-09-01 00:00:00 +0000
 author: alca
-tags: ["hazena", "zeny", "2-liga", "opatovice", "draken"]
-
-season: "2014-2015"
-gameDate: 2014-09-01
-group: "zeny"
-contest: "2-liga-b"
-homeTeam: "TJ Sokol Opatovice nad Labem"
-guestTeam: "Draken Brno"
+tags:
+- hazena
+- zeny
+- 2-liga
+- opatovice
+- draken
+season: 2014-2015
+gameDate: 2014-09-01 00:00:00 +0000
+group: zeny
+contest: 2-liga-b
+homeTeam: TJ Sokol Opatovice nad Labem
+guestTeam: Draken Brno
 homeScore: 15
 guestScore: 15
 homeHalfScore: 7
 guestHalfScore: 8
----
 
+---
 ```
 Docela se mi to I líbilo 
 ```

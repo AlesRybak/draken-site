@@ -1,21 +1,25 @@
 ---
-title: "13. ligové kolo: 1. NH Brno - Draken Brno 17:16 (9:6)"
-date: 2015-04-14
+title: '13. ligové kolo: 1. NH Brno - Draken Brno 17:16 (9:6)'
+date: 2015-04-14 00:00:00 +0000
 author: slacha
-tags: ["hazena", "muzi", "1-liga", "1nh-brno", "draken"]
-
-season: "2014-2015"
-gameDate: 2015-04-14
-group: "muzi"
-contest: "1-liga"
-homeTeam: "1. NH Brno"
-guestTeam: "Draken Brno"
+tags:
+- hazena
+- muzi
+- 1-liga
+- 1nh-brno
+- draken
+season: 2014-2015
+gameDate: 2015-04-14 00:00:00 +0000
+group: muzi
+contest: 1-liga
+homeTeam: 1. NH Brno
+guestTeam: Draken Brno
 homeScore: 17
 guestScore: 16
 homeHalfScore: 9
 guestHalfScore: 6
----
 
+---
 Po dlouhé zimní pauze se opět roztočil prvoligový kolotoč. První utkání jarní části sezony jsme sehráli na hřišti městského rivala 1. NH Brno. Ač byli domácí před zápasem jasným favoritem, nechybělo mnoho k tomu, abychom rozšířili naši zatím velice chudou bodovou sbírku.
 
 Příprava na zápas byla dost poznamenána tím, že se na našem hřišti na Kraví hoře předělával povrch a my stihli pouhý jeden plnohodnotný venkovní trénink. Do zápasu jsme tak nastupovali v očekávání, jak rychle se na větší hřiště a kluzký povrch dokážeme adaptovat. Možná i tato skutečnost ovlivnila z našeho pohledu dosti slabou první půli. Ta se nám vůbec nepovedla a do šaten jsme si odnášeli tříbrankové manko (9:6 pro domácí). Na vině byla především slabá hra útoku. Domácí obranu jsme příliš nepotrápili a navíc zahodili spoustu trestů ze středu brankoviště.

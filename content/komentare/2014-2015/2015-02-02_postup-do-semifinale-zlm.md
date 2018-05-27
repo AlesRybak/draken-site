@@ -1,14 +1,18 @@
 ---
-title: "Postup do semifinále Zimní ligy mládeže"
-date: 2015-02-02
-gameDate: 2015-02-02
+title: Postup do semifinále Zimní ligy mládeže
+date: 2015-02-02 00:00:00 +0000
+gameDate: 2015-02-02 00:00:00 +0000
 author: slacha
-tags: ["hazena", "draken", "dorky", "zimni-liga"]
-season: "2014-2015"
-group: "dorky"
-contest: "zlm"
----
+tags:
+- hazena
+- draken
+- dorky
+- zimni-liga
+season: 2014-2015
+group: dorky
+contest: zlm
 
+---
 Po povedeném vystoupení v jihlavském základním kole Zimní ligy mládeže vyrazily drakenské dorostenky o dva týdny později do Staré Vsi nad Ondřejnicí sehrát čtvrtfinálový turnaj této nově vzniklé soutěže. Výjezd to byl výjimečný již z toho důvodu, že se holky poprvé ve své krátké házenkářské kariéře dostaly mimo jihomoravskou oblast a narazily na skutečně kvalitní severomoravské celky. A zážitek to byl vskutku poučný.. 
 
 Na turnaji se představilo 6 týmů. Severomoravskou oblast zastupovaly Stará Ves (postup z 1. místa v základním kole), Svinov (2.) a Studénka (3.). Jihomoravskou oblast pak reprezentovaly Vracov (1.), Draken Brno (2.) a Jihlava (3.). Hrály se dvě základní skupiny (ve skupině "A" nastoupily St. Ves, Draken a Studénka;  ve skupině "B" Vracov, Svinov a Jihlava) z nichž si vítěz zajistil přímý postup do turnajového semifinále, zatímco týmy na 2. a 3. místě sehrály do kříže čtvrtfinále. Postupový klíč byl takový, že do další fáze Zimní ligy postupovaly 4 nejvýše postavené týmy. Stačilo tak dosáhnout semifinále.

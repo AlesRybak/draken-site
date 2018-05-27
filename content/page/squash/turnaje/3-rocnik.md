@@ -1,12 +1,12 @@
 ---
-title: '3. ročník (2010/2011)'
-url: '/squash/turnaje/3-rocnik'
+title: 3. ročník (2010/2011)
+url: "/squash/turnaje/3-rocnik"
 menu:
   main:
-    parent: 'squash-turnaje'
+    parent: squash-turnaje
     weight: -3
----
 
+---
 # 3. ročník squash turnaje (2010 / 2011)
 
 ## Vítězové

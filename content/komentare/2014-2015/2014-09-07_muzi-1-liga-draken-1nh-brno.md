@@ -1,21 +1,25 @@
 ---
-title: "2. ligové kolo: Draken Brno - 1. NH Brno 13:19 (4:9)"
-date: 2014-09-07
+title: '2. ligové kolo: Draken Brno - 1. NH Brno 13:19 (4:9)'
+date: 2014-09-07 00:00:00 +0000
 author: slacha
-tags: ["hazena", "muzi", "1-liga", "draken", "1nh-brno"]
-
-season: "2014-2015"
-gameDate: 2014-09-07
-group: "muzi"
-contest: "1-liga"
-homeTeam: "Draken Brno"
-guestTeam: "1. NH Brno"
+tags:
+- hazena
+- muzi
+- 1-liga
+- draken
+- 1nh-brno
+season: 2014-2015
+gameDate: 2014-09-07 00:00:00 +0000
+group: muzi
+contest: 1-liga
+homeTeam: Draken Brno
+guestTeam: 1. NH Brno
 homeScore: 13
 guestScore: 19
 homeHalfScore: 4
 guestHalfScore: 9
----
 
+---
 Ve  druhém kole 1. ligy mužů jsme v prvním domácím zápase této sezony přivítali městského rivala 1. NH Brno. Tento tým se v posledních sezonách pravidelně umisťuje na nejvyšších příčkách a patří k nejlepším celkům soutěže, nečekal nás tedy jednoduchý zápas.
 
 K utkání jsme nastoupili v současné úzké sestavě, která kontrastovala se zaplněnou lavičkou hostí.

@@ -1,13 +1,13 @@
 ---
-title: 'Draken'
-date: 2016-09-17
-url: '/draken'
-menu: 
+title: Draken
+date: 2016-09-17 00:00:00 +0000
+url: "/draken"
+menu:
   main:
-    identifier: 'draken'
+    identifier: draken
     weight: 100
----
 
+---
 # Draken Brno
 
 Oddíl národní házené má dlouholetou tradici. Vznikl v roce 1959 původně jako školní kroužek při ZDŠ Lerchova 65 a v roce 1979 přešel pod TJ Tábor Brno. Z původně skromného oddílu s jedním až dvěma družstvy jsme dokázali vybudovat v současné době jeden z největších oddílů národní házené v celé republice. Od roku 2000 se oddíl nazývá **Draken Brno**.

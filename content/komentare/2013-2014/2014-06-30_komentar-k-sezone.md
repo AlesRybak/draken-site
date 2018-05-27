@@ -1,14 +1,18 @@
 ---
-title: "Komentář k postupové sezoně 2013-2014"
-date: 2014-06-30
-gameDate: 2014-06-30
+title: Komentář k postupové sezoně 2013-2014
+date: 2014-06-30 00:00:00 +0000
+gameDate: 2014-06-30 00:00:00 +0000
 author: slacha
-tags: ["hazena", "draken", "muzi", "2-liga"]
-season: "2013-2014"
-group: "muzi"
-contest: "2-liga-b"
----
+tags:
+- hazena
+- draken
+- muzi
+- 2-liga
+season: 2013-2014
+group: muzi
+contest: 2-liga-b
 
+---
 Říkal jsem si, že by bylo fajn sepsat s určitým časovým odstupem a vychladlou hlavou menší ohlédnutí za právě uplynulou ligovou sezonou. Nedopadla totiž úplně špatně.
 
 V jejím průběhu to však na podobně dobrý konec několikrát nevypadalo. Ten nicotný bodík, který ve finiši dělil šťástné postupující od druhého Veselí, jsme mohli velice jednoduše nechat ve spoustě zápasů. Třeba hned v tom prvním.

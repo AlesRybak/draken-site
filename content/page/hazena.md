@@ -1,10 +1,11 @@
 ---
-title: 'Házená'
-date: 2016-09-17
+title: Házená
+date: 2016-09-17 00:00:00 +0000
 type: section-root
-url: '/hazena'
-menu: 
+url: "/hazena"
+menu:
   main:
-    identifier: 'hazena'
+    identifier: hazena
     weight: 200
+
 ---

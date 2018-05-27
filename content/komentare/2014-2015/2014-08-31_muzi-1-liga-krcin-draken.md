@@ -1,21 +1,25 @@
 ---
-title: "1. ligové kolo: Sokol Krčín - Draken Brno 15:14 (9:8)"
-date: 2014-08-31
+title: '1. ligové kolo: Sokol Krčín - Draken Brno 15:14 (9:8)'
+date: 2014-08-31 00:00:00 +0000
 author: slacha
-tags: ["hazena", "muzi", "1-liga", "krcin", "draken"]
-
-season: "2014-2015"
-gameDate: 2014-08-31
-group: "muzi"
-contest: "1-liga"
-homeTeam: "Sokol Krčín"
-guestTeam: "Draken Brno"
+tags:
+- hazena
+- muzi
+- 1-liga
+- krcin
+- draken
+season: 2014-2015
+gameDate: 2014-08-31 00:00:00 +0000
+group: muzi
+contest: 1-liga
+homeTeam: Sokol Krčín
+guestTeam: Draken Brno
 homeScore: 15
 guestScore: 14
 homeHalfScore: 9
 guestHalfScore: 8
----
 
+---
 V úvodním kole 1. ligy mužů jsme zavítali na hřiště Sokola Krčín do Nového Města nad Metují. Zápas se z důvodu oslav 70 let krčínské národní házené odehrál již v sobotu 30. srpna. Zbylá utkání tohoto kola se hrají o den později.
 
 Začínalo se za slunečného počasí na suchém povrchu. Výhodu úvodního výhozu proměnil domácí tým v branku a dostal se do vedení. Stav se rychle vyšplhal na 4:4 a vypadalo to, že si diváci užijí brankové hody. Přišel však oboustranný útočný zásek a následnou pasáž utkání hrály prim obrany s brankáři. Domácí ofenziva se z útlumu probudila dříve a dokázala pro svůj tým vytvořit dvoubrankový náskok, který si krčínští udržovali až do konce poločasu. V samém závěru první půle však snížil na přijatelných 9:8 pro Krčín Honza Obrlík.

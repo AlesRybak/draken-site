@@ -1,14 +1,19 @@
 ---
-title: "Memoriál Jana Václavka st., 23.3.2014, Náchod"
-date: 2014-03-23
-gameDate: 2014-03-23
+title: Memoriál Jana Václavka st., 23.3.2014, Náchod
+date: 2014-03-23 00:00:00 +0000
+gameDate: 2014-03-23 00:00:00 +0000
 author: betka
-tags: ["hazena", "nachod", "draken", "zeny", "pripravny-turnaj"]
-season: "2014-2015"
-group: "zeny"
-contest: "pripravny-turnaj"
----
+tags:
+- hazena
+- nachod
+- draken
+- zeny
+- pripravny-turnaj
+season: 2014-2015
+group: zeny
+contest: pripravny-turnaj
 
+---
 Družstvo žen Drakenu Brno se v neděli 23. března 2014 zúčastnilo turnaje v Náchodě, pořádaného již 12. rokem na počest jedné z legend národní házené - Jana Václavka st. 
 
 Memoriál Jana Václavka je tradičně turnajem ligových družstev žen a má proto vysokou úroveň. Letos se domácí tým Náchoda rozhodl namísto toho pozvat vítěze oblastních přeborů dle tabulek podzimní soutěže 2013, což znamenalo i pozvání pro náš tým Drakenu Brno, který je po podzimní části soutěže v Jihomoravské oblasti na prvním místě. Pozvání dále přijal Sokol Bakov - lídr středočeské oblasti, TJ Jiskra Raspenava - lídr Severočeské oblasti a TJ Spartak Modřady, který soutěží v 1. lize žen a je aktuálně na poslední, 12. příčce. I přes změnu ve způsobu výběru družstev si turnaj udržel vysokou úroveň a jednotlivé zápasy byly často vyrovnané. 

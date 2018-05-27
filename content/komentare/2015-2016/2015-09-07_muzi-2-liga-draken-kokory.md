@@ -1,21 +1,25 @@
 ---
-title: "2. ligové kolo: Draken Brno -  Sokol Kokory 20:15 (10:9)"
-date: 2015-09-07
+title: 2. ligové kolo: Draken Brno -  Sokol Kokory 20:15 (10:9)
+date: 2015-09-07 00:00:00 +0000
 author: slacha
-tags: ["hazena", "muzi", "2-liga", "draken", "kokory"]
-
-season: "2015-2016"
-gameDate: 2015-09-07
-group: "muzi"
-contest: "2-liga-b"
-homeTeam: "Draken Brno"
-guestTeam: "Sokol Kokory"
+tags:
+- hazena
+- muzi
+- 2-liga
+- draken
+- kokory
+season: 2015-2016
+gameDate: 2015-09-07 00:00:00 +0000
+group: muzi
+contest: 2-liga-b
+homeTeam: Draken Brno
+guestTeam: Sokol Kokory
 homeScore: 20
 guestScore: 15
 homeHalfScore: 10
 guestHalfScore: 9
----
 
+---
 Druhé domácí utkání sezony přineslo druhou výhru. Nerodila se však úplně lehce, mladý hostující mančaft z Kokor nechtěl dát svou kůži lacino a byl po většinu zápasu vyrovnaným soupeřem. O osudu utkání rozhodl začátek druhé půle, kdy jsme si vytvořili několikabrankový náskok a ten pak do konce utkání udržovali. 
 
 Zápas měl úplně jiný charakter než ten před týdnem. Kokorští borci na nic nečekali a nebáli se hrát. Hlavně v první půli jsme vzadu marně hledali úspěšnou protizbraň na jejich útok a nezískávali tolik míčů, na kolik jsme proti podobným soupeřům zvyklí. 

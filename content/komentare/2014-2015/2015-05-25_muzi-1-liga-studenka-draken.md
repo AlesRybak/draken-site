@@ -1,21 +1,25 @@
 ---
-title: "20. ligové kolo: SK Studénka - Draken Brno 15:14 (8:7)"
-date: 2015-05-25
+title: '20. ligové kolo: SK Studénka - Draken Brno 15:14 (8:7)'
+date: 2015-05-25 00:00:00 +0000
 author: slacha
-tags: ["hazena", "muzi", "1-liga", "studenka", "draken"]
-
-season: "2014-2015"
-gameDate: 2015-05-25
-group: "muzi"
-contest: "1-liga"
-homeTeam: "SK Studénka"
-guestTeam: "Draken Brno"
+tags:
+- hazena
+- muzi
+- 1-liga
+- studenka
+- draken
+season: 2014-2015
+gameDate: 2015-05-25 00:00:00 +0000
+group: muzi
+contest: 1-liga
+homeTeam: SK Studénka
+guestTeam: Draken Brno
 homeScore: 15
 guestScore: 14
 homeHalfScore: 8
 guestHalfScore: 7
----
 
+---
 Co se nedá první lize upřít, to je lépe zařízené počasí. Zatímco v naší staré "dvojce" pršelo co chvíli a v některých destinacích v podstatě při každé naší návštěvě, v nejvyšší soutěži se zatím jednalo pouze o výjimky (chcanec na pokřtění naší premiéry v Krčíně, mokré hřiště v Tymákově - ale tam byl na vině i hloupý brzký ranní čas, a nyní mokro a drobný déšť ve Studénce). Mokrá guma neslibovala příliš zajímavou podívanou. I tak se místní ochozy velice sympaticky zaplnily.
 
 Dříve platila v našich mokrých zápasech rovnice, jejímž výsledkem byly tragické technické chyby a minimum vstřelených branek. Zde se však toto pravidlo nepotvrdilo. Naopak si myslím, že jsme ztrát vyprodukovali méně, než ve většině letošních suchých utkání. Ač bylo znát, že útočníci nemohou s mokrým míčem ukázat vše ze svého repertoáru, stejně se na obou stranách dařilo překonávat obrany a akce končily spíše brankami či zákroky dobře chytajících brankařů, než obrannými zisky.

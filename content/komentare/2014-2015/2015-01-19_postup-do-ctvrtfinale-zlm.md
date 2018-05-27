@@ -1,14 +1,18 @@
 ---
-title: "Postup do čtvrtfinále Zimní ligy mládeže"
-date: 2015-01-19
-gameDate: 2015-01-19
+title: Postup do čtvrtfinále Zimní ligy mládeže
+date: 2015-01-19 00:00:00 +0000
+gameDate: 2015-01-19 00:00:00 +0000
 author: slacha
-tags: ["hazena", "draken", "dorky", "zimni-liga"]
-season: "2014-2015"
-group: "dorky"
-contest: "zlm"
----
+tags:
+- hazena
+- draken
+- dorky
+- zimni-liga
+season: 2014-2015
+group: dorky
+contest: zlm
 
+---
 Drakenské dorostenky se 17. ledna zúčastnily základního kola Zimní halové ligy mládeže. Kvalifikační turnaj se odehrál v Jihlavě za účasti šesti týmů. Tradiční oblastní trojlístek Vracov - Draken - Jihlava doplnilo nově se formující družstvo 1. NH Brno a dva pražské celky - Spoje a Modřany. Holky se tak mohly poměřit i s neznámými soupeřkami a sehrát zajímavá utkání.
 
 Cíl byl jasný - postup do další fáze Zimní ligy. To se po solidních výkonech podařilo a budeme tak moci sehrát další kvalitní zápasy proti severomoravským celkům ve čtvrtfinálové skupině ve Staré Vsi nad Ondřejnicí (hraje se 31. ledna).

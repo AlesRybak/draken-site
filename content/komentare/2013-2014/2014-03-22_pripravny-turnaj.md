@@ -1,12 +1,15 @@
 ---
-title: "Přípravný turnaj na Tatranu"
-date: 2014-03-22
+title: Přípravný turnaj na Tatranu
+date: 2014-03-22 00:00:00 +0000
 author: betka
-tags: ["hazena", "mlzky", "turnaj"]
-group: "mlzky"  # věková kategorie
-contest: "pripravny-turnaj"
----
+tags:
+- hazena
+- mlzky
+- turnaj
+group: mlzky
+contest: pripravny-turnaj
 
+---
 Družstvo mladších žaček se 22. března 2014 zúčastnilo přípravného turnaje v bohunické hale na Tatranu. 
 
 {{< image file="/images/komentare/2014-03-22_pripravny-turnaj.jpg" title="Fotografie důležitých aktorů" >}} 

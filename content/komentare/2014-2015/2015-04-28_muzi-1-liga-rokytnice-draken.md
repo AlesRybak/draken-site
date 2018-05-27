@@ -1,21 +1,25 @@
 ---
-title: "16. ligové kolo: TJ Sokol Rokytnice - Draken Brno 14:14 (7:8)"
-date: 2015-04-28
+title: '16. ligové kolo: TJ Sokol Rokytnice - Draken Brno 14:14 (7:8)'
+date: 2015-04-28 00:00:00 +0000
 author: slacha
-tags: ["hazena", "muzi", "1-liga", "rokytnice", "draken"]
-
-season: "2014-2015"
-gameDate: 2015-04-28
-group: "muzi"
-contest: "1-liga"
-homeTeam: "Sokol Rokytnice"
-guestTeam: "Draken Brno"
+tags:
+- hazena
+- muzi
+- 1-liga
+- rokytnice
+- draken
+season: 2014-2015
+gameDate: 2015-04-28 00:00:00 +0000
+group: muzi
+contest: 1-liga
+homeTeam: Sokol Rokytnice
+guestTeam: Draken Brno
 homeScore: 14
 guestScore: 14
 homeHalfScore: 7
 guestHalfScore: 8
----
 
+---
 Ve čtvrtém jarním zápase jsme se představili v Rokytnici u Přerova. K zápasu jsme nastupovali jako jasný outsider. Na našem kontě v tabulce stále svítily slaboučké dva body, patnáctibodoví domácí byli posilnění týden starou demolicí Podlázek (24:15). Na hřišti však očekávaný rozdíl mezi oběma mančafty nijak výrazně znát nebyl.
 
 Od úvodu zápasu měla domácí ofenziva velké starosti s překonáním naší obrany a když už se přes ni rokytničtí borci prosadili, troskotali na výborně chytajícím Mirovi Divinovi. Náš útok, snad aby nerozchytal domácího gólmana, buď relativně v pohodě skóroval, nebo odevzdal míč zkaženou přihrávkou. Těch, stejně jako dalších nevynucených technických chyb, bylo z naší strany opět obrovské množství. Výborný výkon zadních řad nás však stále držel ve hře o první jarní body. První půli jsme vyhráli o branku (8:7). Kdybychom však v útoku dokázali zopakovat podobně koncentrovaný výkon jako ve druhé půli na NHčku nebo doma proti Nýřanům, mohlo (a mělo) být touto dobou dávno po zápase.

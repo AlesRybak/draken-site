@@ -1,14 +1,18 @@
 ---
-title: "Přípravný turnaj v Humpolci (1. 3. 2015)"
-date: 2015-03-01
-gameDate: 2015-03-01
+title: Přípravný turnaj v Humpolci (1. 3. 2015)
+date: 2015-03-01 00:00:00 +0000
+gameDate: 2015-03-01 00:00:00 +0000
 author: slacha
-tags: ["hazena", "draken", "muzi", "pripravny-turnaj"]
-season: "2014-2015"
-group: "muzi"
-contest: "pripravny-turnaj"
----
+tags:
+- hazena
+- draken
+- muzi
+- pripravny-turnaj
+season: 2014-2015
+group: muzi
+contest: pripravny-turnaj
 
+---
 V rámci herní přípravy na jarní část prvoligové soutěže jsme tradičně vyrazili na Vysočinu. Turnaje v humpolecké sportovní hale se kromě nás a domácí Jiskry zúčastnila ještě tři další družstva - 1. NH Brno, Bakov a SK Pohoří, za které nastoupili hráči, kteří mají více či méně aktuální zkušenost s dresem Dobrušky. Vzhledem k faktu, že se jednalo pouze o přípravu, zvládali někteří agilní jedinci hrát i za více týmů. Asi aby oprášili staré herní vazby a udělali si větší žízeň.
 
 Hrálo se systémem každý s každým na 2 x 20 minut. Celkem tedy 160 minut hry na tým. Vzhledem k solidní úrovni jednotlivých utkání slušná porce pro tělo vypadlé z pravidelného herního zápřahu..

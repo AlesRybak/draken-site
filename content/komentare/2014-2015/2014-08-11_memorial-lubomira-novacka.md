@@ -1,14 +1,20 @@
 ---
-title: "První přípravný turnaj na novou sezonu - Memoriál Lubomíra Nováčka ve Veselí n. Moravou"
-date: 2014-08-11
-gameDate: 2014-08-11
+title: První přípravný turnaj na novou sezonu - Memoriál Lubomíra Nováčka ve Veselí
+  n. Moravou
+date: 2014-08-11 00:00:00 +0000
+gameDate: 2014-08-11 00:00:00 +0000
 author: slacha
-tags: ["hazena", "draken", "muzi", "pripravny-turnaj", "veseli"]
-season: "2014-2015"
-group: "muzi"
-contest: "pripravny-turnaj"
----
+tags:
+- hazena
+- draken
+- muzi
+- pripravny-turnaj
+- veseli
+season: 2014-2015
+group: muzi
+contest: pripravny-turnaj
 
+---
 O víkendu 9.-10. srpna 2014 se družstvo mužů zúčastnilo tradičního přípravného turnaje – Memoriálu Lubomíra Nováčka ve Veselí nad Moravou. Na turnaj jsme vyrazili s kostrou „A“ týmu doplněnou o hráče rezervního družstva „B“. Cílem bylo především volnější zahájení herní přípravy směřující k začátku podzimní části sezony a potrápení těl zatuhlých dlouhou letní pauzou.
 
 Výhodou veselského turnaje je fakt, že ho pravidelně navštěvují i družstva z Čech, se kterými se jinak téměř nepotkáváme. Krom tradičních moravských soupeřů jsme se tak letos měli možnost poměřit i s Kyšicemi a Ejpovicemi – týmy středu tabulky uplynulé sezony 2. ligy mužů skupiny A.

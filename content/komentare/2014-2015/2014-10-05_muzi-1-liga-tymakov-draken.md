@@ -1,21 +1,25 @@
 ---
-title: "8. ligové kolo: TJ Sokol Tymákov - Draken Brno 15:9 (9:7)"
-date: 2014-10-05
+title: '8. ligové kolo: TJ Sokol Tymákov - Draken Brno 15:9 (9:7)'
+date: 2014-10-05 00:00:00 +0000
 author: slacha
-tags: ["hazena", "muzi", "1-liga", "tymakov", "draken"]
-
-season: "2014-2015"
-gameDate: 2014-10-05
-group: "muzi"
-contest: "1-liga"
-homeTeam: "TJ Sokol Tymákov"
-guestTeam: "Draken Brno"
+tags:
+- hazena
+- muzi
+- 1-liga
+- tymakov
+- draken
+season: 2014-2015
+gameDate: 2014-10-05 00:00:00 +0000
+group: muzi
+contest: 1-liga
+homeTeam: TJ Sokol Tymákov
+guestTeam: Draken Brno
 homeScore: 15
 guestScore: 9
 homeHalfScore: 9
 guestHalfScore: 7
----
 
+---
 Sobotní ofenzivní trápení však bylo jen slabým odvarem toho, co jsme v útoku předvedli v neděli v Tymákově. Z tohoto zápasu jsme jednoznačně měli vydolovat nějaký bod a smazat velkou nulu, která v tabulce na našem kontě dosud svítí. Obrana s brankáři šlapala a brala domácím útočníkům míč za míčem. Náš útok však předváděl absolutní bídu korunovanou takovými chybami, až oči přecházely (už jsem letos zahrál zápasy, které měly k ideálu daleko, ale můj osobní výkon v tomto utkání neměl s ligovou házenou společného ani ň, na co jsem šáhl, to jsem zmastil). V první půli nás i přes vše špatné podržel především Zdenda Divina, který svou střelbou držel naše akcie stále ve hře. Důležité góly přidali i Robin Kováč s Jendou Obrlíkem. Dostali jsme však branku z trestu po čase z velkého úhlu (poločas 9:7 pro domácí) a to našemu již tak mdlému výkonu asi ještě více uškodilo. Obrana s brankářem se mohla přetrhnout a statečně bojovala svůj minizápas s domácí ofenzivou, které byla rovnocenným partnerem a místy ji převyšovala. Útok se však ve druhé půli vzmohl na pouhé dvě branky a po nepovedeném vstupu do této části hry působil velmi odevzdaně. Naše již tak slabá hra ještě více utrpěla vlhkým míčem, se kterým nebyla proti domácí obraně s brankářem vůbec nebezpečná. Přes fakt, že domácí nezahráli ofenzivně zrovna nejpovedenější partii, jsme jim cestu za dvěma body nijak neztížili.
  
 Postřehy

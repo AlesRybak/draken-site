@@ -1,14 +1,18 @@
 ---
-title: "Semifinále Zimní ligy znamenalo pro dorky konečnou"
-date: 2015-02-25
-gameDate: 2015-02-25
+title: Semifinále Zimní ligy znamenalo pro dorky konečnou
+date: 2015-02-25 00:00:00 +0000
+gameDate: 2015-02-25 00:00:00 +0000
 author: slacha
-tags: ["hazena", "draken", "dorky", "zimni-liga"]
-season: "2014-2015"
-group: "dorky"
-contest: "zlm"
----
+tags:
+- hazena
+- draken
+- dorky
+- zimni-liga
+season: 2014-2015
+group: dorky
+contest: zlm
 
+---
 Kdo by si po podzimu vsadil na to, že drakenským družstvem, které zůstane v letošních zimních pohárových soutěžích nejdéle, budou právě dorostenky? Já teda ne. Kurz na tuto eventualitu se mohl vyšroubovat sakramentsky vysoko a případný tipér by měl na nějakou dobu vystaráno.. I když, co já vím, třeba to Tipsport fakt vypsal a nějakej Lojza (kterej tomu rozumí víc než já) už si válí šunky pod palmama..
 
 Že postoupíme z krajského kola hraného v Jihlavě se čekat dalo. Byla to dokonce povinnost. Prohrát se staršími žačkami NHčka, to už bychom fakt mohli jít cvrnkat kuličky. Že jsme šli ze druhého místa už, to už lehkým překvapením bylo. Tento turnaj byl pro mě vůbec nejsvětlejším místem letošní zimy. Holky porazily jak Jihlavu, tak dvoje pražandy, které také určitou úroveň měly. Náš herní projev byl nejlepší za poslední dobu.

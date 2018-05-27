@@ -1,21 +1,25 @@
 ---
-title: "3. ligové kolo: TJ DIOSS Nýřany - Draken Brno 19:16 (10:11)"
-date: 2014-09-13
+title: '3. ligové kolo: TJ DIOSS Nýřany - Draken Brno 19:16 (10:11)'
+date: 2014-09-13 00:00:00 +0000
 author: slacha
-tags: ["hazena", "muzi", "1-liga", "nyrany", "draken"]
-
-season: "2014-2015"
-gameDate: 2014-09-13
-group: "muzi"
-contest: "1-liga"
-homeTeam: "TJ DIOSS Nýřany"
-guestTeam: "Draken Brno"
+tags:
+- hazena
+- muzi
+- 1-liga
+- nyrany
+- draken
+season: 2014-2015
+gameDate: 2014-09-13 00:00:00 +0000
+group: muzi
+contest: 1-liga
+homeTeam: TJ DIOSS Nýřany
+guestTeam: Draken Brno
 homeScore: 19
 guestScore: 16
 homeHalfScore: 10
 guestHalfScore: 11
----
 
+---
 O víkendu 13. a 14. září 2014 jsme zajížděli k prvnímu venkovnímu dvoukolu v sezoně. Čekali nás dva soupeři z Plzeňska – Nýřany a Přeštice. S těmito týmy se mnozí z nás ještě nikdy neutkali.
 
 Zápasy to byly značně rozdílné. Zatímco v sobotu jsme podali slušný výkon a favorizovaného soupeře dvě třetiny zápasu trápili, v neděli jsme nestačili a podlehli po matném výkonu výraznějším rozdílem.

@@ -1,19 +1,23 @@
 ---
-title: "Draken - Albrechtičky 14:12 (5:6)"
-date: 2014-05-25
+title: Draken - Albrechtičky 14:12 (5:6)
+date: 2014-05-25 00:00:00 +0000
 author: zd
-tags: ["hazena", "2-liga", "muzi", "vitkovice", "draken"]
-
-season: "2013-2014"
-gameDate: 2014-05-25
-group: "muzi"
-contest: "2-liga-b"
-homeTeam: "Draken Brno"
-guestTeam: "Albrechtičky"
+tags:
+- hazena
+- 2-liga
+- muzi
+- vitkovice
+- draken
+season: 2013-2014
+gameDate: 2014-05-25 00:00:00 +0000
+group: muzi
+contest: 2-liga-b
+homeTeam: Draken Brno
+guestTeam: Albrechtičky
 homeScore: 14
 guestScore: 12
----
 
+---
 K dalšímu z kritických zápasů jsme se slezli na našem prosluněném svatostánku, kde jsme očekávali naše poslední přemožitele - Albrechtičky.
 
 Omlazená obrana soupeřů nebyla nijak neprůchodná, ale nedařilo se v koncovce. A taky zase ty nahrávky! První čtvrtinu jsme docela prohráli, a to dokonce o tři góly (2:5). Po vystřídání útoku mě tam se Skalníkem něco spadlo, takže počáteční krize byla zlomena. Avšak v polovině stejně vedli. Vlastně celý dvě třetiny vedli, takže až do 40. minuty jsme naháněli gólový manko...

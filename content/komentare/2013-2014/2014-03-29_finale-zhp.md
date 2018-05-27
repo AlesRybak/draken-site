@@ -1,14 +1,18 @@
 ---
-title: "Družstvo mladších žáků Drakenu 4. na Finále ZHP 2014 ve Staré Vsi  "
-date: 2014-03-29
-gameDate: 2014-03-29
+title: Družstvo mladších žáků Drakenu 4. na Finále ZHP 2014 ve Staré Vsi  
+date: 2014-03-29 00:00:00 +0000
+gameDate: 2014-03-29 00:00:00 +0000
 author: madis
-tags: ["hazena", "draken", "mlzci", "zhp"]
-season: "2013-2014"
-group: "mlzci"
-contest: "zhp"
----
+tags:
+- hazena
+- draken
+- mlzci
+- zhp
+season: 2013-2014
+group: mlzci
+contest: zhp
 
+---
 Tým Drakenu rozhodně patřil do skupiny prvních pěti týmů, kteří byly o třídu 
 lepší, než zbylé dva. Družstva Studénky, Krčína a Nezvěstic měly ve svém 
 středu fyzicky vyspělé individuality, které dokázaly rozhodovat zápasy. 

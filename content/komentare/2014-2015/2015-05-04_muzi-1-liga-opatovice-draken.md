@@ -1,21 +1,25 @@
 ---
-title: "17. ligové kolo: TJ Sokol Opatovice n. L. - Draken Brno 18:17 (11:6)"
-date: 2015-05-04
+title: '17. ligové kolo: TJ Sokol Opatovice n. L. - Draken Brno 18:17 (11:6)'
+date: 2015-05-04 00:00:00 +0000
 author: slacha
-tags: ["hazena", "muzi", "1-liga", "opatovice", "draken"]
-
-season: "2014-2015"
-gameDate: 2015-05-04
-group: "muzi"
-contest: "1-liga"
-homeTeam: "TJ Sokol Opatovice nad Labem"
-guestTeam: "Draken Brno"
+tags:
+- hazena
+- muzi
+- 1-liga
+- opatovice
+- draken
+season: 2014-2015
+gameDate: 2015-05-04 00:00:00 +0000
+group: muzi
+contest: 1-liga
+homeTeam: TJ Sokol Opatovice nad Labem
+guestTeam: Draken Brno
 homeScore: 18
 guestScore: 17
 homeHalfScore: 11
 guestHalfScore: 6
----
 
+---
 Zápas dvou úplně odlišných poločasů. V první půli na nás domácí vlétli. Dařilo se jim střelecky a rychle si vypracovali tříbrankové vedení. Náš útok naopak první poločas vůbec nezvládl střelecky. Trefovali jsme tyče, několik velmi dobrých zákroků vytáhl i domácí gólman Pospíšil. Obrana, která nezachytila začátek zápasu, se však postupem času zpevňovala a přes střeleckou impotenci jsme se stále drželi na hratelném rozdílu skóre. Před koncem poločasu jsme měli v držení míč a mohli snížit na rozdíl tří branek. Místo toho jsme neúspěšně vystřelili 15 vteřin před koncem a z brejku dostali branku na hrozivých 11:6. 
 
 Hlavními poločasovými otázkami řešenými na ochozech tak byla velikost nakládačky, kterou nám domácí borci uštědří, a zda se nám vůbec podaří vstřelit dvouciferný počet branek.

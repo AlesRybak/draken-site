@@ -1,10 +1,11 @@
 ---
-title: 'Squash'
-date: 2016-09-17
+title: Squash
+date: 2016-09-17 00:00:00 +0000
 type: section-root
-url: '/squash'
-menu: 
+url: "/squash"
+menu:
   main:
-    identifier: 'squash'
+    identifier: squash
     weight: 300
+
 ---

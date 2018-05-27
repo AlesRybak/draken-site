@@ -1,23 +1,20 @@
-baseurl: "http://localhost:1313/"
-languageCode: "cs-cz"
-title: "Draken Brno"
-theme: "draken-hugo"
+---
+baseurl: http://localhost:1313/
+languageCode: cs-cz
+title: Draken Brno
+theme: draken-hugo
 canonifyurls: false;
-
-
 menu:
   main:
-    - identifier: 'radost-na-drakenu'
-      name: "Radost na Drakenu"
-      url: "http://radost-na-drakenu.webnode.cz/"
-      parent: aktivity
-      weight: 400
-    - identifier: 'squash-rezervace'
-      name: "Rezervace"
-      parent: squash
-      weight: 100
-      url: http://squash-draken.isportsystem.cz/
-
-
+  - identifier: squash-rezervace
+    name: Rezervace
+    parent: squash
+    url: http://squash-draken.isportsystem.cz/
+    weight: 100
+  - identifier: radost-na-drakenu
+    name: Radost na Drakenu
+    parent: aktivity
+    url: http://radost-na-drakenu.webnode.cz/
+    weight: 400
 params:
-  sidebar: "left"
+  sidebar: left

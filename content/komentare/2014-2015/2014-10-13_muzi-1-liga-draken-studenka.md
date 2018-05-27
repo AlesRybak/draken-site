@@ -1,21 +1,25 @@
 ---
-title: "9. ligové kolo: Draken Brno - SK Studénka 16:17 (8:7)"
-date: 2014-10-13
+title: '9. ligové kolo: Draken Brno - SK Studénka 16:17 (8:7)'
+date: 2014-10-13 00:00:00 +0000
 author: slacha
-tags: ["hazena", "muzi", "1-liga", "draken", "studenka"]
-
-season: "2014-2015"
-gameDate: 2014-10-13
-group: "muzi"
-contest: "1-liga"
-homeTeam: "Draken Brno"
-guestTeam: "SK Studénka"
+tags:
+- hazena
+- muzi
+- 1-liga
+- draken
+- studenka
+season: 2014-2015
+gameDate: 2014-10-13 00:00:00 +0000
+group: muzi
+contest: 1-liga
+homeTeam: Draken Brno
+guestTeam: SK Studénka
 homeScore: 16
 guestScore: 17
 homeHalfScore: 8
 guestHalfScore: 7
----
 
+---
 V dalším domácím utkání jsme na Kraví hoře přivítali tým ze Studénky. Z naší tradiční sestavy chyběl Ondra Botko, takže nám na obraně ubyly nějaké centimetry i kilogramy. Po krátké pauze způsobené drobnými zdravotními problémy se do týmu naopak vrátil Vašek Pokorný. Větší herní prostor pak dostal i Michal Grepl. V útoku nemáme v současnosti příliš možností ke změně, ofenzivní vozba (vozbička) tak byla klasická, doplněná o dorostence Ondru Voráče. Na všechny opory se však v tomto zápase nemohl spolehnout ani náš soupeř, který tak musel zalovit hlouběji v pustějovské farmě.
 
 První půle utkání byla velice vyrovnaná. Na obou stranách chytali dobře brankáři a nepadalo příliš branek. Když nám dal soupeř neproměněnou šancí možnost zhruba 20 vteřin před koncem poločasu ještě jednou zaútočit, vytvořili jsme si trest v nepříliš výhodném úhlu. Z něj však Jenda Obrlík vybojoval díky zákroku beka nohou pokutový hod a ten následně suverénně proměnil Zdenda Divina. Do šaten jsme tak odcházeli s jednobrankovým náskokem (8:7) a doufali, že konečně zlomíme nepovedený úvod sezony a vybojujeme první prvoligový bod(y).

@@ -1,12 +1,12 @@
 ---
-title: 'Rozpis tréninků'
-date: 2016-09-17
-url: '/hazena/rozpis-treninku'
+title: Rozpis tréninků
+date: 2016-09-17 00:00:00 +0000
+url: "/hazena/rozpis-treninku"
 menu:
   main:
     parent: hazena
----
 
+---
 # Rozpis tréninků v teplé části roku (venku)
 
 (časy jsou pouze orientační, každou sezonu dochází k drobným změnám, pro zaručené aktuální informace doporučujeme

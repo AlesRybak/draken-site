@@ -1,21 +1,25 @@
 ---
-title: "9. ligové kolo: KNH Moravská Slavia Brno - Draken Brno 18:13 (8:7)"
-date: 2015-10-12
+title: 9. ligové kolo: KNH Moravská Slavia Brno - Draken Brno 18:13 (8:7)
+date: 2015-10-12 00:00:00 +0000
 author: slacha
-tags: ["hazena", "muzi", "2-liga", "slavia", "draken"]
-
-season: "2015-2016"
-gameDate: 2015-10-12
-group: "muzi"
-contest: "2-liga-b"
-homeTeam: "KNH Moravská Slavia Brno"
-guestTeam: "Draken Brno"
+tags:
+- hazena
+- muzi
+- 2-liga
+- slavia
+- draken
+season: 2015-2016
+gameDate: 2015-10-12 00:00:00 +0000
+group: muzi
+contest: 2-liga-b
+homeTeam: KNH Moravská Slavia Brno
+guestTeam: Draken Brno
 homeScore: 18
 guestScore: 13
 homeHalfScore: 8
 guestHalfScore: 7
----
 
+---
 Nepovedený špíl v kose jak sviň.
 
 ### Sestavy 

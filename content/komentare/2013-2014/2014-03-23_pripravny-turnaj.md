@@ -1,14 +1,18 @@
 ---
-title: "Vítězství v přípravném turnaji"
-date: 2014-03-23
-gameDate: 2014-03-23
+title: Vítězství v přípravném turnaji
+date: 2014-03-23 00:00:00 +0000
+gameDate: 2014-03-23 00:00:00 +0000
 author: draken
-tags: ["hazena", "draken", "mlzci", "pripravny-turnaj"]
-season: "2013-2014"
-group: "mlzci"
-contest: "pripravny-turnaj"
----
+tags:
+- hazena
+- draken
+- mlzci
+- pripravny-turnaj
+season: 2013-2014
+group: mlzci
+contest: pripravny-turnaj
 
+---
 Tabulka z vítězného přípravného turnaje v Bohunicích (23. 3. 2014)
 
 N  | Tým | Z | V | R | P | Skóre | Body

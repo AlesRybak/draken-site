@@ -1,10 +1,16 @@
 ---
 title: Draken x Jihlava C
-thumbnail: /images/content/2005-10_draken-jihlava-c.jpg
-date: 2005-10-25
+thumbnail: "/images/content/2005-10_draken-jihlava-c.jpg"
+date: 2005-10-25 00:00:00 +0000
 type: external
-link: 'http://mry.cz/photo/draken/jihlava05/index.html'
+link: http://mry.cz/photo/draken/jihlava05/index.html
 author: mry
-tags: [hazena, draken, jihlava, jmop, muzi]
+tags:
+- hazena
+- draken
+- jihlava
+- jmop
+- muzi
+
 ---
 Draken x Jihlava C

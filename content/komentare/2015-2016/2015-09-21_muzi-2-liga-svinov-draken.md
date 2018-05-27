@@ -1,21 +1,25 @@
 ---
-title: "6. ligové kolo: Sokol Svinov - Draken Brno 21:11 (9:4)"
-date: 2015-09-21
+title: 6. ligové kolo: Sokol Svinov - Draken Brno 21:11 (9:4)
+date: 2015-09-21 00:00:00 +0000
 author: slacha
-tags: ["hazena", "muzi", "2-liga", "svinov", "draken"]
-
-season: "2015-2016"
-gameDate: 2015-09-21
-group: "muzi"
-contest: "2-liga-b"
-homeTeam: "Sokol Svinov"
-guestTeam: "Draken Brno"
+tags:
+- hazena
+- muzi
+- 2-liga
+- svinov
+- draken
+season: 2015-2016
+gameDate: 2015-09-21 00:00:00 +0000
+group: muzi
+contest: 2-liga-b
+homeTeam: Sokol Svinov
+guestTeam: Draken Brno
 homeScore: 21
 guestScore: 11
 homeHalfScore: 9
 guestHalfScore: 4
----
 
+---
 Slabý výkon útoku, žalostná produktivita a s postupem času i narůstající odevzdanost. Zápas, v němž se sice můžeme vymlouvat na abnormální množství trefených tyčí, ale rozdíl mezi oběma týmy byl velice výrazný. Domácí ofenziva hrála pohlednou a účinnou házenou. Posledních 15-20 minut už se jen dohrávalo. Takový náklep rozdílem několika tříd jsme dlouho nedostali..
 
 ### Sestavy 

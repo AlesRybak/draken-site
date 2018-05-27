@@ -8,27 +8,27 @@
     "avatar": "/images/avatars/tega.jpg"
   },
   "aldar": {
-    "name":"Aleš Rybák",
+    "name": "Aleš Rybák",
     "avatar": "/images/avatars/aldar.jpg"
   },
   "madis": {
-    "name":"Petr Maděra",
+    "name": "Petr Maděra",
     "avatar": "/images/avatars/madis.jpg"
   },
   "zd": {
-    "name":"Zdenda Divina",
+    "name": "Zdenda Divina",
     "avatar": "/images/avatars/zd.jpg"
   },
   "alca": {
-    "name":"Alena Vespalcová",
+    "name": "Alena Vespalcová",
     "avatar": "/images/avatars/alca.jpg"
   },
   "betka": {
-    "name":"Alžběta Kundratová",
+    "name": "Alžběta Kundratová",
     "avatar": "/images/avatars/alca.jpg"
   },
   "slacha": {
-    "name":"Tom Slach",
+    "name": "Tom Slach",
     "avatar": "/images/avatars/slacha.jpg"
   }
 }

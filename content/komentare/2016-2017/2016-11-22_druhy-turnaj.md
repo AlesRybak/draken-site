@@ -1,15 +1,16 @@
 ---
 title: Druhý turnaj, první výhry
-date: 2016-11-22
+date: 2016-11-22 00:00:00 +0000
 author: tega
-tags: ["pripravka", "turnaj"]
+tags:
+- pripravka
+- turnaj
+season: 2016-2017
+gameDate: 2016-11-22 00:00:00 +0000
+group: pripravka
+contest: jmop
 
-season: "2016-2017"
-gameDate: 2016-11-22
-group: "pripravka"
-contest: "jmop"
 ---
-
 V sobotu 19. listopadu 2016 se družstvo přípravky zúčastnilo zimního halového poháru ve Vracově.
 
 Přestože musela drakeňata vstávat mnohem dřív, než jsou asi v sobotu zvyklá (sraz byl v 6:00 na hlavním nádraží), nijak se tím nenechala rozhodit a krátce po opuštění čtvrtého nástupiště už vlakem lítaly střídavě třásně a vtipy o blondýnkách.

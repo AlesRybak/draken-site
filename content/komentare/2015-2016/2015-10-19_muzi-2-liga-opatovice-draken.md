@@ -1,21 +1,25 @@
 ---
-title: "10. ligové kolo: TJ Sokol Opatovice nad Labem - Draken Brno 18:16 (7:4)"
-date: 2015-10-19
+title: '10. ligové kolo: TJ Sokol Opatovice nad Labem - Draken Brno 18:16 (7:4)'
+date: 2015-10-19 00:00:00 +0000
 author: slacha
-tags: ["hazena", "muzi", "2-liga", "opatovice", "draken"]
-
-season: "2015-2016"
-gameDate: 2015-10-19
-group: "muzi"
-contest: "2-liga-b"
-homeTeam: "TJ Sokol Opatovice nad Labem"
-guestTeam: "Draken Brno"
+tags:
+- hazena
+- muzi
+- 2-liga
+- opatovice
+- draken
+season: 2015-2016
+gameDate: 2015-10-19 00:00:00 +0000
+group: muzi
+contest: 2-liga-b
+homeTeam: TJ Sokol Opatovice nad Labem
+guestTeam: Draken Brno
 homeScore: 18
 guestScore: 16
 homeHalfScore: 7
 guestHalfScore: 4
----
 
+---
 Poslední hrací víkend podzimní části sezony, venkovní dvoukolo, dva zápasy na mokré gumě proti silným východočeským týmům. Výsledkem je pouze jediný získaný bod.
 
 V sobotu jsme nastoupili v Opatovicích (Pohřebačce) proti týmu, který ještě v sezoně neztratil ani bod, a je jednoznačně největším kandidátem na postup do nejvyšší soutěže. Čekal nás těžký zápas. Kvality domácího mančaftu jsou prvoligové a návrat o patro výš jim bude slušet. O tom už je po podzimu prakticky rozhodnuto. 

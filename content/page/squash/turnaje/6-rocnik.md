@@ -1,12 +1,12 @@
 ---
-title: '6. ročník (2013/2014)'
-url: '/squash/turnaje/6-rocnik'
+title: 6. ročník (2013/2014)
+url: "/squash/turnaje/6-rocnik"
 menu:
   main:
-    parent: 'squash-turnaje'
+    parent: squash-turnaje
     weight: -6
----
 
+---
 # 6. ročník squash turnaje (2013 / 2014)
 
 ## Vítězové

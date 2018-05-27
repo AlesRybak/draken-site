@@ -1,21 +1,25 @@
 ---
-title: "Draken - Veselí 11:9 (5:4)"
-date: 2014-04-27
+title: Draken - Veselí 11:9 (5:4)
+date: 2014-04-27 00:00:00 +0000
 author: zd
-tags: ["hazena", "muzi", "2-liga", "draken", "veseli"]
-
-season: "2013-2014"
-gameDate: 2014-04-27
-group: "muzi"
-contest: "2-liga-b"
-homeTeam: "Draken Brno"
-guestTeam: "SK NH Veselí nad Moravou"
+tags:
+- hazena
+- muzi
+- 2-liga
+- draken
+- veseli
+season: 2013-2014
+gameDate: 2014-04-27 00:00:00 +0000
+group: muzi
+contest: 2-liga-b
+homeTeam: Draken Brno
+guestTeam: SK NH Veselí nad Moravou
 homeScore: 11
 guestScore: 9
 homeHalfScore: 5
 guestHalfScore: 4
----
 
+---
 Přijeli k nám borci od Baťova kanálu se zdravým stravováním, aby zabojovali o první místo v tabulce. To však neobhájili a mohli jsme je tím pádem vystřídat my.
 
 12 minut se oba útoky pokoušely překonat obrany, než padly první góly. Nervozita se lepila na prsty, stejně jako štěpařský vosk. Zdá se, že klukům chybí klid, nadhled a zkušenosti sbírané v bojích o mistrovské tituly v mládežnických kategoriích.

@@ -1,12 +1,12 @@
 ---
-title: 'Pravidla'
-date: 2016-09-17
-url: '/squash/pravidla'
+title: Pravidla
+date: 2016-09-17 00:00:00 +0000
+url: "/squash/pravidla"
 menu:
   main:
     parent: squash
----
 
+---
 # Zkrácená pravidla squashe
 
 Velmi stručný výtah z pravidel má umožnit odehrání utkání začátečníkům. Pravidla squashe jsou daleko obsáhlejší s přesným výkladem. V této podobě jsou však zapotřebí pouze pro vrcholovou úroveň. Pro rekreační hru postačí dále uvedený výběr základních principů. Vzhledem k charakteru hry, kdy jsou oba hráči v jednom kurtu a střídají se v odehrání míče, musí být základním pravidlem neohrozit protihráče raketou ani nastřelením míčem.

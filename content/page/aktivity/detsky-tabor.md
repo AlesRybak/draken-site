@@ -1,13 +1,13 @@
 ---
-title: 'Dětský tábor'
-date: 2016-09-17
-url: '/detsky-tabor'
+title: Dětský tábor
+date: 2016-09-17 00:00:00 +0000
+url: "/detsky-tabor"
 menu:
   main:
-    identifier: 'detsky-tabor'
+    identifier: detsky-tabor
     parent: aktivity
----
 
+---
 # Letní dětský tábor v Zubří
 
 Milé děti,

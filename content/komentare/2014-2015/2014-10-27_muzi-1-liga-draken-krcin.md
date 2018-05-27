@@ -1,21 +1,25 @@
 ---
-title: "12. ligové kolo: Draken Brno - Sokol Krčín 8:10 (4:5)"
-date: 2014-10-27
+title: '12. ligové kolo: Draken Brno - Sokol Krčín 8:10 (4:5)'
+date: 2014-10-27 00:00:00 +0000
 author: slacha
-tags: ["hazena", "muzi", "1-liga", "draken", "krcin"]
-
-season: "2014-2015"
-gameDate: 2014-10-27
-group: "muzi"
-contest: "1-liga"
-homeTeam: "Draken Brno"
-guestTeam: "Sokol Krčín"
+tags:
+- hazena
+- muzi
+- 1-liga
+- draken
+- krcin
+season: 2014-2015
+gameDate: 2014-10-27 00:00:00 +0000
+group: muzi
+contest: 1-liga
+homeTeam: Draken Brno
+guestTeam: Sokol Krčín
 homeScore: 8
 guestScore: 10
 homeHalfScore: 4
 guestHalfScore: 5
----
 
+---
 V sobotu 25. října 2014 jsme sehráli poslední utkání prvoligového podzimu – předehrávku prvního jarního kola proti Sokolu Krčín. Po dobrém pocitu z minulého víkendu přišlo velice těžké vystřízlivění.
 
 Váhal jsem jak toto utkání ve stručnosti popsat a vyhnout se nepublikovatelnému výrazivu. Jde to ztěžka. Hosté přijeli s nekompletní ofenzivou, kterou naše obrana držela po celé utkání na uzdě. To co se však dělo na naší útočné polovině, bylo neuvěřitelné. Nejsem schopen odhadnout, jak velký podíl na tomto dění měla vynikající obrana hostí a jakou naše vlastní mátožnost a marnost. Výsledek však byl jasný. Totální ofenzivní zmar v našem podání. V první řadě skládám poklonu soupeři za to, jakým způsobem si nás lajna M. Červinka – M. Leugner – J. Mikolášek za zády s jistým M. Chmelíkem namazala na chleba. Na druhou stranu to chvílemi vypadalo, jako bychom jim to ani neměli zájem příliš ztížit. Máme tak přes zimu důvod k pořádnému zamyšlení a jasnou nápovědu, na čem zapracovat nejvíce.

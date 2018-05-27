@@ -1,13 +1,12 @@
 ---
-title: 'Informace JOSK'
-date: 2017-02-02
-url: '/hazena/informace-josk'
+title: Informace JOSK
+date: 2017-02-02 00:00:00 +0000
+url: "/hazena/informace-josk"
 menu:
   main:
     parent: hazena
+
 ---
-
-
 # Informace JOSK
 
 Všechny důležité informace poskytované Jihomoravskou oblastní soutěžní komisí je možné nalézt v elektronické podobě na oficiálních stránkách:

@@ -1,14 +1,18 @@
 ---
 title: "Čtvrtfinále Českého poháru - Veselí (14. 2. 2015)"
-date: 2015-02-16
-gameDate: 2015-02-16
+date: 2015-02-16 00:00:00 +0000
+gameDate: 2015-02-16 00:00:00 +0000
 author: slacha
-tags: ["hazena", "draken", "muzi", "cp"]
-season: "2014-2015"
-group: "muzi"
-contest: "cp"
----
+tags:
+- hazena
+- draken
+- muzi
+- cp
+season: 2014-2015
+group: muzi
+contest: cp
 
+---
 Za dob našeho působení ve druhé lize jsme bývali do Českého poháru nasazováni o kolo dříve - do osmifinálového turnaje. Díky současné prvoligové příslušnosti jsme však letos automaticky začínali až v turnaji čtvrtfinálovém. Ten se měl původně odehrát v Brně, ale člověk míní a morenďáčtí pohlaváři mění. Zajížděli jsme tak do Veselí nad Moravou. Turnaj se odehrál v krásné hale, kterou primárně využívají místní interligové Panenky.
 
 Nejeli jsme v plné sestavě, podobně však k turnaji přistoupily i další mančafty (Krčín, 1. NH Brno). Turnaj byl z naší strany brán především jako přípravný a případný postup by byl pouze jakýmsi bonusem. Sehráli jsme zajímavé zápasy, svou premiéru na této úrovni si odbyl Jon Wolf a větší minutáž dostali kluci, kteří si normálně tolik nezahrají.

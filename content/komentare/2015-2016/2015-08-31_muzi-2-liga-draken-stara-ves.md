@@ -1,21 +1,25 @@
 ---
-title: "1. ligové kolo: Draken Brno -  TJ Stará Ves nad Ondřejnicí 22:13 (6:5)"
-date: 2015-08-31
+title: 1. ligové kolo: Draken Brno -  TJ Stará Ves nad Ondřejnicí 22:13 (6:5)
+date: 2015-08-31 00:00:00 +0000
 author: slacha
-tags: ["hazena", "muzi", "2-liga", "draken", "stara-ves"]
-
-season: "2015-2016"
-gameDate: 2015-08-31
-group: "muzi"
-contest: "2-liga-b"
-homeTeam: "Draken Brno"
-guestTeam: "TJ Stará Ves nad Ondřejnicí"
+tags:
+- hazena
+- muzi
+- 2-liga
+- draken
+- stara-ves
+season: 2015-2016
+gameDate: 2015-08-31 00:00:00 +0000
+group: muzi
+contest: 2-liga-b
+homeTeam: Draken Brno
+guestTeam: TJ Stará Ves nad Ondřejnicí
 homeScore: 22
 guestScore: 13
 homeHalfScore: 6
 guestHalfScore: 5
----
 
+---
 V neděli 30. srpna 2015 jsme po roční prvoligové anabázi opět nastoupili k druholigovému zápasu. V důležitém úvodním klání soutěže jsme na Kraví hoře přivítali soupeře ze Staré Vsi nad Ondřejnicí. Toto utkání mělo dva naprosto odlišné poločasy. V prvním se hrála stěží koukatelná pomalá házená s minimem gólů na obou stranách, ve druhém se pak tempo zrychlilo a přibylo branek.
 
 Je možné, že náš slabý vstup do zápasu ovlivnil posun začátku o 20 minut. Na vině byly problémy jednoho auta borců ze Vsi, které zůstalo viset v zácpě na dálnici. Po klasické rozcvičce na čas stále nebylo jasné, kdy bude utkání zahájeno a my během čekačky (možná) lehce zatuhli. Dalším faktorem byla pomalá hra útoku hostí, jimž nečinilo problém obléhat naši obrannou hráz po dobu několika minut (nejdelší útok trval více jak 5 minut, průměr mohl být někde mezi 2 - 3 minutami). Nutno říci, že v této fázi zápasu měli staroveští také štěstí na odražené míče a ty se jim po neproměněných střelách opět vracely do rukou. Naše obrana s Mirou za zády však tradičně fungovala na jedničku. V útoku jsme však nebyli schopni chytit rytmus zápasu, hráli jsme zaraženě, bez energie. Přizpůsobili jsme se tempu netempu. Několika dobrými zákroky se blýskl i hostující brankář. Výsledkem utrápeného poločasu bylo naše průběžné vedení 6:5.
