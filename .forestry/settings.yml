@@ -12,5 +12,5 @@ upload_dir: static/images/content
 public_path: "/images/content"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":year:_:filename:"
+file_template: ":year:-:month:-:day:_:filename:"
 version: 0.38.1
