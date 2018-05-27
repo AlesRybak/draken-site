@@ -6,9 +6,9 @@ webhook_url:
 sections:
   fotogalerie:
     default_front_matter_template: fotogalerie
-upload_dir: static/uploads
-public_path: "/uploads"
+upload_dir: static/images/content
+public_path: "/images/content"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":filename:"
+file_template: ":year:_:filename:"
 version: 0.38.1
